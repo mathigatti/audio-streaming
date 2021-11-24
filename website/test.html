@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Head tag -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Title -->
+
+<title>Mathias Gatti</title>
+<meta name="title" content="Radio">
+<meta property="og:title" content="Radio">
+<meta property="twitter:title" content="Radio">
+
+<!--Description-->
+
+<meta name="description" content="COMPLETAR">
+<meta property="og:description" content="COMPLETAR">
+<meta property="twitter:description" content="COMPLETAR">
+
+
+<!--Favicon-->
+<link rel="icon" href="https://mathigatti.com/favicon/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mathigatti.com/">
+<meta property="twitter:url" content="https://mathigatti.com/">
+<meta property="twitter:card" content="summary_large_image">
+
+
+</head>
+<body>
+
+<h1>Radio</h1>
+
+<audio controls>
+  <source id="audio" src="/static/test.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<script>
+  myAudio=document.getElementById('audio');
+  myAudio.addEventListener('canplaythrough', function() {
+    this.currentTime = 12;
+    this.play();
+  });
+</script>
+
+</body>
+</html>
