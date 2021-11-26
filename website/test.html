@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<!-- Head tag -->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,16 +27,32 @@
 <meta property="twitter:url" content="https://mathigatti.com/">
 <meta property="twitter:card" content="summary_large_image">
 
-
 </head>
+
 <body>
 
 <h1>Radio</h1>
 
-<audio controls>
-  <source id="audio" src="/static/test.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+<table class="playgrid">
+  <tr><td>.</td><td>ES</td><td>EN</td></tr>
+  <tr>
+    <td>P1</td>
+    <td><button class="playbtn" id="p1es">play</button></td>
+    <td><button class="playbtn" id="p1en">play</button></td>
+  </tr>
+  <tr>
+    <td>P2</td>
+    <td><button class="playbtn" id="p2es">play</button></td>
+    <td><button class="playbtn" id="p2en">play</button></td>
+  </tr>
+  <tr>
+    <td>P3</td>
+    <td><button class="playbtn" id="p3es">play</button></td>
+    <td><button class="playbtn" id="p3en">play</button></td>
+  </tr>
+</table>
+
+<div class="progress"></div>
 
 <script>
   myAudio=document.getElementById('audio');
@@ -48,5 +62,6 @@ Your browser does not support the audio element.
   });
 </script>
 
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
