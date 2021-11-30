@@ -22,6 +22,11 @@
 
 <!--Favicon-->
 <link rel="icon" href="https://mathigatti.com/favicon/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="test.css" type="text/css" media="screen" title="no title" charset="utf-8">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://mathigatti.com/">
 <meta property="twitter:url" content="https://mathigatti.com/">
@@ -31,27 +36,17 @@
 
 <body>
 
-<h1>Radio</h1>
+<!-- <h1>Radio</h1> --!>
 
-<button class="langbtn" id="langbtn"><b>ES</b> | EN</button>
+<div class="langbtn" id="langbtn"><b>ES</b> | EN</div>
 
-<div class="caption" id="caption">...</div>
+<!-- <div class="caption" id="caption">...</div> --!>
 
-<table class="playgrid">
-  <tr><td>.</td><td>Proyector</td></tr>
-  <tr>
-    <td>P1</td>
-    <td><button class="playbtn" id="p1">play</button></td>
-  </tr>
-  <tr>
-    <td>P2</td>
-    <td><button class="playbtn" id="p2">play</button></td>
-  </tr>
-  <tr>
-    <td>P3</td>
-    <td><button class="playbtn" id="p3">play</button></td>
-  </tr>
-</table>
+<div class="btnlist">	
+	<div class="proybtn" id="p1">&gt; Proyector 1</div>
+	<div class="proybtn" id="p2">&gt; Proyector 2</div>
+	<div class="proybtn" id="p3">&gt; Proyector 3</div>
+</div>
 
 <button class="seek" id="seek">+10 segundos</button>
 

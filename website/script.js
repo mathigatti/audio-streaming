@@ -1,5 +1,5 @@
-const playbtns = document.getElementsByClassName("playbtn")
-const playButtons = Array.from(playbtns).reduce(function(obj,x){
+const proybtns = document.getElementsByClassName("proybtn")
+const proyButtons = Array.from(proybtns).reduce(function(obj,x){
     obj[x.id] = x;
     return obj;
 },{});
@@ -43,7 +43,7 @@ langButton.addEventListener('click', ()=>{
 })
 
 function playAudio(proy,lang,n){
-    caption.innerText = captions[proy+lang+n];
+    //caption.innerText = captions[proy+lang+n];
     audio.src = `../audios/${proy+lang}/${proy+lang+n}.mp3`;
     console.log(audio.src);
     audio.play();
@@ -62,8 +62,8 @@ document.getElementById("seek").addEventListener('click',()=>{
     seekAudio(audio.currentTime+10)
 })
 
-Object.keys(playButtons).forEach(key => {
-    playButtons[key].addEventListener('click', ()=>{
+Object.keys(proyButtons).forEach(key => {
+    proyButtons[key].addEventListener('click', ()=>{
         playAudio(key,lang,'0002')
         console.log('p1'+lang+'0002')
     })
