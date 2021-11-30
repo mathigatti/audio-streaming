@@ -33,35 +33,36 @@
 
 <h1>Radio</h1>
 
+<button class="langbtn" id="langbtn"><b>ES</b> | EN</button>
+
+<div class="caption" id="caption">...</div>
+
 <table class="playgrid">
-  <tr><td>.</td><td>ES</td><td>EN</td></tr>
+  <tr><td>.</td><td>Proyector</td></tr>
   <tr>
     <td>P1</td>
-    <td><button class="playbtn" id="p1es">play</button></td>
-    <td><button class="playbtn" id="p1en">play</button></td>
+    <td><button class="playbtn" id="p1">play</button></td>
   </tr>
   <tr>
     <td>P2</td>
-    <td><button class="playbtn" id="p2es">play</button></td>
-    <td><button class="playbtn" id="p2en">play</button></td>
+    <td><button class="playbtn" id="p2">play</button></td>
   </tr>
   <tr>
     <td>P3</td>
-    <td><button class="playbtn" id="p3es">play</button></td>
-    <td><button class="playbtn" id="p3en">play</button></td>
+    <td><button class="playbtn" id="p3">play</button></td>
   </tr>
 </table>
 
-<div class="progress"></div>
+<button class="seek" id="seek">+10 segundos</button>
 
-<script>
-  myAudio=document.getElementById('audio');
-  myAudio.addEventListener('canplaythrough', function() {
-    this.currentTime = 12;
-    this.play();
-  });
-</script>
+<div class="progress-container" id="progress-container">
+  <div class="progress" id="progress"></div>
+</div>
+
+<audio src="../audios/p1en/p1en0001.mp3" id="audio"></audio>
 
 <script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="../audios/captions.json"></script>
+
 </body>
 </html>
