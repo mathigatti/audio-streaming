@@ -1,0 +1,69 @@
+body{
+    background-color: #030800;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.proy{
+    font-size: x-small;
+    font-style: italic;
+    margin-bottom: 10pt;
+    margin-top: auto;
+}
+
+.caption{
+    font-size: x-large;
+    overflow-wrap: break-word;
+}
+
+.progress-container {
+    background: rgba(200, 200, 200, 150);
+    border-radius: 5px;
+    margin: 10px 0;
+    height: 3px;
+    width: 100%;
+    margin-top: 40pt;
+}
+  
+.progress {
+    background-color: #fff;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+}
+
+.expo-container{
+    font-size: small;
+    justify-content: end;
+    margin-top: auto;
+}
+
+.proybtn{
+    font-size: larger;
+    align-items: center;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.langbtn{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: small;
+    margin-left: 2pt;
+    margin-top: 8pt;
+}

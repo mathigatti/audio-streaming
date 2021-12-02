@@ -1,70 +1,69 @@
-const proybtns = document.getElementsByClassName("proybtn")
-const proyButtons = Array.from(proybtns).reduce(function(obj,x){
-    obj[x.id] = x;
-    return obj;
-},{});
+// const proybtns = document.getElementsByClassName("proybtn")
+// const proyButtons = Array.from(proybtns).reduce(function(obj,x){
+//     obj[x.id] = x;
+//     return obj;
+// },{});
 const langButton = document.getElementById("langbtn")
 const audio = document.getElementById('audio');
 const caption = document.getElementById('caption');
+const code = document.getElementById('expo-code');
+const author = document.getElementById('expo-author');
+const proyText = document.getElementById('proy');
 
 var captions = {};
+var authors = {};
 var lang = 'es';
-
-//load captions
-function getJsonObject(cb){
-    // read text from URL location
-    var request = new XMLHttpRequest();
-    request.open('GET', '../audios/captions.json', true);
-    request.send(null);
-    request.onreadystatechange = function () {
-        if (request.readyState === 4 && request.status === 200) {
-
-            var type = request.getResponseHeader('Content-Type');
-            try {
-                    cb(JSON.parse(request.responseText));
-            }catch(err) {
-                    cb(err);
-            }
-        }
-    }
-}
-getJsonObject(function(object){
-     captions = object;
-});
+var proy = 1;
 
 langButton.addEventListener('click', ()=>{
     if(lang=='es'){
         lang = 'en'
         langButton.innerHTML = "ES | <b>EN</b>"
+        proyText.innerText = `Projector ${proy}`
     } else {
         lang = 'es'
         langButton.innerHTML = "<b>ES</b> | EN"
+        proyText.innerText = `Proyector ${proy}`
     }
 })
 
-function playAudio(proy,lang,n){
-    //caption.innerText = captions[proy+lang+n];
-    audio.src = `../audios/${proy+lang}/${proy+lang+n}.mp3`;
-    console.log(audio.src);
+function setAudioSource(filename){
+    audio.src = `../audios/${filename.substring(0,4)}/${filename}.mp3`;
+}
+
+fetch('../audios/captions.json')
+  .then(response => response.json())
+  .then(data => captions = data);
+
+fetch('../audios/code_authors.json')
+  .then(response => response.json())
+  .then(data => authors = data);
+
+
+function correctAudioState(current,expected){
+    if (!current.src.includes(expected['filename'])){
+        setAudioSource(expected['filename'])
+        caption.innerText = captions[expected['caption_id']]
+        code.innerText = authors[expected['code_author_id']][0]
+        author.innerText = authors[expected['code_author_id']][1]
+    }
+    if (Math.abs(audio.currentTime - expected.currentTime) > MAX_DESYNC){
+        audio.currentTime = expected['current_time'] + MAX_DESYNC/2;
+    }
     audio.play();
 }
 
-function stopAudio(){          
-    caption.innerText = "...";
-    audio.pause();
+const MAX_DESYNC = 2
+async function tick() {
+    try {
+        fetch(`../p${proy}${lang}`)
+            .then(response => response.json())
+            .then(data => correctAudioState(audio,data))
+    } finally {
+       setTimeout(tick, 2000)
+    }
 }
 
-function seekAudio(time){
-    audio.currentTime = time;
-}
-
-document.getElementById("seek").addEventListener('click',()=>{
-    seekAudio(audio.currentTime+10)
-})
-
-Object.keys(proyButtons).forEach(key => {
-    proyButtons[key].addEventListener('click', ()=>{
-        playAudio(key,lang,'0002')
-        console.log('p1'+lang+'0002')
-    })
-})
+window.addEventListener('DOMContentLoaded', (event) => {
+    //tick();
+});
