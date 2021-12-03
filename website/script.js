@@ -18,11 +18,11 @@ var proy = 1;
 langButton.addEventListener('click', ()=>{
     if(lang=='es'){
         lang = 'en'
-        langButton.innerHTML = "ES | <b>EN</b>"
+        langButton.innerHTML = "ESP"
         proyText.innerText = `Projector ${proy}`
     } else {
         lang = 'es'
-        langButton.innerHTML = "<b>ES</b> | EN"
+        langButton.innerHTML = "ENG"
         proyText.innerText = `Proyector ${proy}`
     }
 })
