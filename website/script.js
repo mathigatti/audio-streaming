@@ -3,12 +3,12 @@
 //     obj[x.id] = x;
 //     return obj;
 // },{});
-const langButton = document.getElementById("langbtn")
+const langButton = document.getElementById("lang-btn")
 const audio = document.getElementById('audio');
 const caption = document.getElementById('caption');
 const code = document.getElementById('expo-code');
 const author = document.getElementById('expo-author');
-const proyText = document.getElementById('proy');
+const proyText = document.getElementById('player-proy-txt');
 
 var captions = {};
 var authors = {};
@@ -19,33 +19,25 @@ langButton.addEventListener('click', ()=>{
     if(lang=='es'){
         lang = 'en'
         langButton.innerHTML = "ESP"
-        proyText.innerText = `Projector ${proy}`
+        proyText.innerText = `PROYECTOR ${proy}`
     } else {
         lang = 'es'
         langButton.innerHTML = "ENG"
-        proyText.innerText = `Proyector ${proy}`
+        proyText.innerText = `PROYECTOR ${proy}`
     }
 })
 
-function setAudioSource(filename){
-    audio.src = `../audios/${filename.substring(0,4)}/${filename}.mp3`;
+function setAudioSource(audioUrl){
+    audio.src = audioUrl;
 }
-
-fetch('../audios/captions.json')
-  .then(response => response.json())
-  .then(data => captions = data);
-
-fetch('../audios/code_authors.json')
-  .then(response => response.json())
-  .then(data => authors = data);
 
 
 function correctAudioState(current,expected){
-    if (!current.src.includes(expected['filename'])){
-        setAudioSource(expected['filename'])
-        caption.innerText = captions[expected['caption_id']]
-        code.innerText = authors[expected['code_author_id']][0]
-        author.innerText = authors[expected['code_author_id']][1]
+    if (!current.src.includes(expected['audio_url'])){
+        setAudioSource(expected['audio_url'])
+        caption.innerText = expected['caption']
+        code.innerText = expected['author'][0]
+        author.innerText = expected['author'][1]
     }
     if (Math.abs(audio.currentTime - expected.currentTime) > MAX_DESYNC){
         audio.currentTime = expected['current_time'] + MAX_DESYNC/2;
@@ -53,17 +45,21 @@ function correctAudioState(current,expected){
     audio.play();
 }
 
+function getProjectorIdFrom(n,lang){
+    return "p"+(n.toString())+lang
+}
+
 const MAX_DESYNC = 2
 async function tick() {
     try {
-        fetch(`../p${proy}${lang}`)
+        fetch(`http://d972-190-19-109-14.ngrok.io/projector/${getProjectorIdFrom(proy,lang)}`)
             .then(response => response.json())
             .then(data => correctAudioState(audio,data))
     } finally {
-       setTimeout(tick, 2000)
+      // setTimeout(tick, 2000)
     }
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
-    //tick();
+    tick();
 });

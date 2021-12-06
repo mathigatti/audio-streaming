@@ -1,35 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500&display=swap');
+/* light -> 300 _-_ medium -> 500  */
+
+
 body{
-    background-color: #030800;
+    background-color: black;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
 }
 
-.intf{
+.container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 90vh;
-    margin-left: 3%;
-    margin-right: 3%;
+    min-height: 92vh;
+    margin-top: 4vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
 }
 
-.proy{
-    font-size: x-small;
-    font-style: italic;
-    margin-bottom: 10pt;
+.lang-btn{
+    font-size: 4vmin;
+    letter-spacing: 1vw;
+}
+
+.proy-menu{
+    flex : 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     margin-top: auto;
+    margin-bottom: auto;
 }
 
-.caption{
-    font-size: x-large;
-    overflow-wrap: break-word;
+.proy-btn{
+    flex: 0 1 8vh;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 8vh;
+    height: 8vh;
+    line-height: 8vh;
+    margin-top: 5vh;
+    font-size: 3vh;
+    font-weight: 500;
 }
 
-.progress-container {
+.proy-txt{
+    margin-top: 7vh;
+    font-size: 4.5vmin;
+    transform: scale(0.9,1);
+    letter-spacing: 1vw;
+}
+
+/******/
+
+.player{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.player-proy-txt{
+    flex: 0;
+    margin-bottom: 5vh;
+    letter-spacing: 0.4vw;
+    font-size: 3vmin;
+}
+
+.expo-info{
+    flex: 2;
+    font-size: 4vmin;
+    letter-spacing: 0.3vw;
+}
+
+.expo-author{
+    font-weight: 500;
+}
+
+.progress-container{
+    flex: 2;
+}
+
+.progress-remaining {
     background: rgba(200, 200, 200, 150);
     border-radius: 5px;
     margin: 10px 0;
-    height: 3px;
+    height: 0.6vh;
     width: 100%;
     margin-top: 40pt;
 }
@@ -42,28 +101,35 @@ body{
     transition: width 0.1s linear;
 }
 
-.expo-container{
-    font-size: small;
-    justify-content: end;
-    margin-top: auto;
+.caption{
+    flex: 3;
+    overflow-wrap: normal;
+    font-size: 6vmin;
+    font-weight: 500;
+    transform: scale(0.9,1);
+    letter-spacing: 0.5vw;
+    transform-origin: left;
+
 }
 
-.proybtn{
-    font-size: larger;
-    align-items: center;
-    text-align: center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.btn-container{
+    display: inline-flex;
+    flex-direction: row;
+    align-content: space-between;
 }
 
-.langbtn{
-    -webkit-user-select: none;
+.btn-sep{
+    flex: 1;
+}
+
+.menu-btn{
+    font-size: 4vmin;
+    letter-spacing: 1vw;
+}
+
+
+/*
+-webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
-    font-size: small;
-    margin-left: 2pt;
-    margin-top: 8pt;
-}
+*/

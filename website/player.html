@@ -38,24 +38,30 @@
 
 <!-- <h1>Radio</h1> -->
 
-<div class="langbtn" id="langbtn"><b>ES</b> | EN</div>
-
-<div class="intf">
-	<div class="proy" id="proy">Proyector 1</div>
-	<div class="caption" id="caption">...</div>
-	<div class="progress-container" id="progress-container">
-  		<div class="progress" id="progress"></div>
+<div class="container">
+	<div class="player">
+		<div class="player-proy-txt" id="player-proy-txt">PROYECTOR 1</div>
+		<div class="expo-info">
+			<div class="expo-code" id="expo-code">PAV 0/0000</div>
+			<div class="expo-author" id="expo-author">...</div>
+			<div class="expo-title" id="expo-title">...</div>
+		</div>
+		<div class="progress-container">
+			<div class="progress-remaining" id="progress-remaining">
+				<div class="progress" id="progress"></div>
+			</div>
+		</div>
+		<div class="caption" id="caption">...</div>
 	</div>
-	<div class="expo-container">
-		<div class="expo-code" id="expo-code">PVN 0000</div>
-		<div class="expo-author" id="expo-author">...</div>
+	<div class="btn-container" id="btn-container">
+		<div class="lang-btn" id="lang-btn">ENG</div>
+		<div class="btn-sep"></div>
+		<div class="menu-btn" id="menu-btn">MENU</div>
 	</div>
 </div>
 
 <audio src="../audios/p1en/p1en0001.mp3" id="audio"></audio>
 
 <script type="text/javascript" src="script.js"></script>
-<script type="text/javascript" src="../audios/captions.json"></script>
-
 </body>
 </html>
