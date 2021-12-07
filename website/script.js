@@ -6,8 +6,8 @@ const author = document.getElementById('expo-author');
 const title = document.getElementById('expo-title');
 const proyText = document.getElementById('player-proy-txt');
 const progress = document.getElementById('progress');
-const currentTimePos = document.getElementById('current-time')
-const remainingTimePos = document.getElementById('remaining-time')
+const currentTimePos = document.getElementById('current-time');
+const remainingTimePos = document.getElementById('remaining-time');
 
 const params = new URLSearchParams(window.location.search)
 
@@ -29,11 +29,13 @@ function setEnglish(){
     lang = 'en'
     langButton.innerText = "ESP"
     proyText.innerText = "PROJECTOR "+proy;
+    window.history.pushState({},null,window.location.href.replace("lang=es","lang=en"))
 }
 function setEspanol(){
     lang = 'es'
     langButton.innerText = "ENG"
     proyText.innerText = "PROYECTOR "+proy;
+    window.history.pushState({},null,window.location.href.replace("lang=en","lang=es"))
 }
 
 function setAudioSource(audioUrl){
@@ -43,6 +45,7 @@ function setAudioSource(audioUrl){
 function correctAudioState(current,expected){
     if (!current.src.includes(expected['audio_url'])){
         setAudioSource(expected['audio_url'])
+        audio.currentTime = expected['current_time']
         caption.innerText = expected['caption']
         code.innerText = expected['author'][0]
         author.innerText = expected['author'][1]
@@ -51,7 +54,7 @@ function correctAudioState(current,expected){
     if (Math.abs(audio.currentTime - expected.currentTime) > MAX_DESYNC){
         audio.currentTime = expected['current_time'] + MAX_DESYNC/2;
     }
-    audio.play();
+    audio.play().catch(err => {window.location.href = `menu.html?lang=${lang}`})
 }
 
 function getProjectorIdFrom(n,lang){
@@ -61,17 +64,14 @@ function getProjectorIdFrom(n,lang){
 const MAX_DESYNC = 2
 async function tick() {
     try {
-        fetch(`http://d972-190-19-109-14.ngrok.io/projector/${getProjectorIdFrom(proy,lang)}`)
+        fetch(`https://7e59-190-19-109-14.ngrok.io/projector/${getProjectorIdFrom(proy,lang)}`)
             .then(response => response.json())
             .then(data => correctAudioState(audio,data))
-    } finally {
-      // setTimeout(tick, 2000)
+            
+    }finally {
+        setTimeout(tick, MAX_DESYNC*1000)
     }
 }
-
-window.addEventListener('DOMContentLoaded', (event) => {
-    tick();
-});
 
 function updateProgress(e) {
     const { duration, currentTime } = e.srcElement;
@@ -80,12 +80,21 @@ function updateProgress(e) {
 }
 audio.addEventListener('timeupdate', updateProgress);
 
+function zfill2(n){
+    n = Number(n).toString()
+    return n.padStart(2,'0')
+}
+
+function timeFormat(min,sec){
+    return zfill2(min)+":"+zfill2(sec)
+}
+
 function getCurrentTimeInMinutes(e){
     const {duration,currentTime} = e.srcElement;
     let min = (currentTime==null)? 0 : Math.floor(currentTime/60);
     let sec = (currentTime==null)? 0 : 
         Math.floor(currentTime-(min*60));
-    return ""+min+":"+sec
+    return timeFormat(min,sec)
 }
 
 function getRemainingTimeInMinutes(e){
@@ -94,7 +103,7 @@ function getRemainingTimeInMinutes(e){
     let min = (currentTime==null)? 0 : Math.floor(remainingTime/60);
     let sec = (currentTime==null)? 0 : 
         Math.floor(remainingTime-(min*60));
-    return "-"+min+":"+sec
+    return "-"+timeFormat(min,sec)
 }
 
 function updateTimeInfo(e){
@@ -103,3 +112,14 @@ function updateTimeInfo(e){
 }
 
 audio.addEventListener('timeupdate',updateTimeInfo);
+
+// overlay.addEventListener('click', () => {
+//     overlay.style.display = "none";
+//     tick();
+// });
+
+document.addEventListener("DOMContentLoaded", function() {
+    lang = params.get("lang");
+    lang == 'es' ? setEspanol() : setEnglish();
+    tick();
+});

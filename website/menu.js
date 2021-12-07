@@ -1,10 +1,9 @@
-const proybtns = document.getElementsByClassName("proy-btn")
-const proyButtons = Array.from(proybtns)
-const proytxts = document.getElementsByClassName("proy-txt")
-const proyTexts = Array.from(proytxts)
-
-const langButton = document.getElementById("lang-btn")
-
+const proybtns = document.getElementsByClassName("proy-btn");
+const proyButtons = Array.from(proybtns);
+const proytxts = document.getElementsByClassName("proy-txt");
+const proyTexts = Array.from(proytxts);
+const langButton = document.getElementById("lang-btn");
+const params = new URLSearchParams(window.location.search);
 var lang = 'es';
 var proy = 1;
 
@@ -18,13 +17,19 @@ proyButtons.forEach((x,i) => {
 
 function setEnglish(){
     lang = 'en'
-    langButton.innerHTML = "ESP"
-    proyTexts.forEach(x => {x.innerText = "PROJECTOR"});
+    langButton.innerText = "ESP"
+    proyText.innerText = "PROJECTOR "+proy;
+    window.history.pushState({},null,window.location.href.replace("lang=es","lang=en"))
 }
-
 function setEspanol(){
     lang = 'es'
-    langButton.innerHTML = "ENG"
-    proyTexts.forEach(x => {x.innerText = "PROYECTOR"});
+    langButton.innerText = "ENG"
+    proyText.innerText = "PROYECTOR "+proy;
+    window.history.pushState({},null,window.location.href.replace("lang=en","lang=es"))
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    lang = params.get("lang");
+    lang == 'es' ? setEspanol() : setEnglish()
+});
 
