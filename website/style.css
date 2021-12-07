@@ -9,6 +9,11 @@ body{
     font-weight: 300;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -19,9 +24,47 @@ body{
     margin-right: 4vw;
 }
 
+.main-menu{
+    flex : 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 10vmin;
+    text-align: center;
+    margin-bottom: 30vh;
+}
+
+.start-btn{
+    font-family: 'Material Icons';
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 8vh;
+    height: 8vh;
+    line-height: 8vh;
+    font-size: 6vh;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*****/
+
 .lang-btn{
     font-size: 4vmin;
     letter-spacing: 1vw;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .proy-menu{
@@ -33,6 +76,10 @@ body{
     justify-content: center;
     margin-top: auto;
     margin-bottom: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .proy-btn{
@@ -101,24 +148,31 @@ body{
     transition: width 0.1s linear;
 }
 
+.time-info{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .caption{
-    flex: 3;
+    flex: 3 0 17vh;
     overflow-wrap: normal;
     font-size: 6vmin;
     font-weight: 500;
     transform: scale(0.9,1);
     letter-spacing: 0.5vw;
     transform-origin: left;
-
 }
 
 .btn-container{
     display: inline-flex;
     flex-direction: row;
     align-content: space-between;
+    width: 100%;
 }
 
-.btn-sep{
+.sep{
     flex: 1;
 }
 
