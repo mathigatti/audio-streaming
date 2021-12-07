@@ -16,8 +16,6 @@ with open("audios/captions.json", 'r') as f:
 with open("audios/code_authors.json", 'r') as f:
     authors = json.load(f)
 
-
-
 def load(projector_id):
     print(projector_id)
     with open(f"projectors_playing/{projector_id[0:2]}.json", 'r') as f:
