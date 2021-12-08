@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500&display=swap');
 /* light -> 300 _-_ medium -> 500  */
 
+html{
+    height: 100%;
+}
 
 body{
     background-color: black;
     color: white;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 300;
+    height: 100%;
 }
 
 a{
