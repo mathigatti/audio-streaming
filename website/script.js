@@ -129,6 +129,5 @@ audio.addEventListener('timeupdate',updateTimeInfo);
 document.addEventListener("DOMContentLoaded", function() {
     lang = params.get("lang");
     lang == 'es' ? setEspanol() : setEnglish();
-    audio.crossOrigin = 'anonymous';
     tick();
 });
