@@ -68,6 +68,8 @@ function getProjectorIdFrom(n,lang){
 function errorCatch(error){
     if(!params.get("ignore-error"))
         window.location.href = `menu.html?lang=${lang}`
+    else
+        throw error
 }
 
 const MAX_DESYNC = 2
