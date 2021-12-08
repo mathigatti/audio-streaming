@@ -101,17 +101,17 @@ function timeFormat(min,sec){
 
 function getCurrentTimeInMinutes(e){
     const {duration,currentTime} = e.srcElement;
-    let min = (currentTime==null)? 0 : Math.floor(currentTime/60);
-    let sec = (currentTime==null)? 0 : 
+    let min = (currentTime)? 0 : Math.floor(currentTime/60);
+    let sec = (currentTime)? 0 : 
         Math.floor(currentTime-(min*60));
     return timeFormat(min,sec)
 }
 
 function getRemainingTimeInMinutes(e){
     const {duration,currentTime} = e.srcElement;
-    let remainingTime = (currentTime==null)? 0 : duration-currentTime;
-    let min = (currentTime==null)? 0 : Math.floor(remainingTime/60);
-    let sec = (currentTime==null)? 0 : 
+    let remainingTime = (currentTime)? 0 : duration-currentTime;
+    let min = (currentTime)? 0 : Math.floor(remainingTime/60);
+    let sec = (currentTime)? 0 : 
         Math.floor(remainingTime-(min*60));
     return "-"+timeFormat(min,sec)
 }
