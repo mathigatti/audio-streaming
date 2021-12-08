@@ -13,7 +13,8 @@ langButton.addEventListener('click', ()=>{
 })
 
 proyButtons.forEach((x,i) => {
-    x.addEventListener('click', () => window.location.href = "player.html?proy="+(i+1)+"&lang="+lang)
+    let ignoreError = params.get("ignore-error") ? "&ignore-error=true" : "";
+    x.addEventListener('click', () => window.location.href = "player.html?proy="+(i+1)+"&lang="+lang+ignoreError)
 });
 
 function setEnglish(){
