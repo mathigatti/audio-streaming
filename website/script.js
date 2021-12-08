@@ -1,4 +1,5 @@
 const langButton = document.getElementById("lang-btn")
+const menuButton = document.getElementById("menu-btn")
 const audio = document.getElementById('audio');
 const caption = document.getElementById('caption');
 const code = document.getElementById('expo-code');
@@ -23,6 +24,9 @@ lang == 'es' ? setEspanol() : setEnglish()
 
 langButton.addEventListener('click', ()=>{
     lang == 'es' ? setEnglish() : setEspanol()
+})
+menuButton.addEventListener('click', () => {
+    window.location.href = `menu.html?lang=${lang}`
 })
 
 function setEnglish(){
@@ -49,25 +53,29 @@ function correctAudioState(current,expected){
         caption.innerText = expected['caption']
         code.innerText = expected['author'][0]
         author.innerText = expected['author'][1]
-        //TODO: title
+        title.innerText = expected['author'][2]
     }
     if (Math.abs(audio.currentTime - expected.currentTime) > MAX_DESYNC){
         audio.currentTime = expected['current_time'] + MAX_DESYNC/2;
     }
-    audio.play().catch(err => {window.location.href = `menu.html?lang=${lang}`})
+    audio.play().catch(errorCatch)
 }
 
 function getProjectorIdFrom(n,lang){
     return "p"+(n.toString())+lang
 }
 
+function errorCatch(error){
+    if(!params.get("ignore-error"))
+        window.location.href = `menu.html?lang=${lang}`
+}
+
 const MAX_DESYNC = 2
 async function tick() {
     try {
-        fetch(`https://7e59-190-19-109-14.ngrok.io/projector/${getProjectorIdFrom(proy,lang)}`)
+        fetch(`https://8744-190-19-109-14.ngrok.io/projector/${getProjectorIdFrom(proy,lang)}`)
             .then(response => response.json())
             .then(data => correctAudioState(audio,data))
-            
     }finally {
         setTimeout(tick, MAX_DESYNC*1000)
     }

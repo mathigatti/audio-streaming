@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Title -->
+
+<title>PAV - Error</title>
+<meta name="title" content="Pidgeon Audio Visual - Expo">
+<meta property="og:title" content="Pidgeon Audio Visual - Expo">
+<meta property="twitter:title" content="Pidgeon Audio Visual - Expo">
+
+<!--Description-->
+
+<meta name="description" content="Interfaz para la exposición de Pidgeon Audio Visual.">
+<meta property="og:description" content="Interfaz para la exposición de Pidgeon Audio Visual.">
+<meta property="twitter:description" content="Interfaz para la exposición de Pidgeon Audio Visual.">
+
+
+<!--Favicon-->
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="icon" href="https://mathigatti.com/favicon/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mathigatti.com/">
+<meta property="twitter:url" content="https://mathigatti.com/">
+<meta property="twitter:card" content="summary_large_image">
+
+</head>
+
+<body>
+
+<!-- <h1>Radio</h1> -->
+<div class="container" style="justify-content: flex-start;">
+	<div class="title" style="text-align:left;margin-bottom: 2vh; margin-top: 5vh;">Error:</div>
+    <div id="error" style="font-size: 2vh;">Se ha producido un error</div>
+    <div style="margin-top: auto; text-align: end; font-size: 3.5vh;">
+        <a href="index.html">Main Menu</a>
+    </div>
+</div>
+
+<script>
+    const errorTextField = document.getElementById('error')
+    const errorType = (new URLSearchParams(window.location.search)).get("error");
+    const errorTexts = {
+        "location": "ESP\nAcceso denegado:\n\tUsted se encuentra demasiado lejos de la exposición."
+                + "\n\nENG\nAccess denied:\n\tYou are too far away from the exhibition.",
+        "permission": "ESP\nPermiso:\n\tSe requiere acceso a la ubicación del dispositivo para verificar que se encuentra en el área de la exposición."
+                + "\n\nENG\nPermission:\n\tAccess to the device's location is required in order to verify you're in the area of the exhibition.",
+        "support": "ESP\nNo hay soporte:\n\tSu buscador no soporta la geolocalización necesaria para verificar que se encuenra en el área de la exposición."
+                + "\n\nENG\nNot supported:\n\tYour browser doesn't support geolocalization which is necessary to verify you're in the area of the exhibition.",
+        "unavailable": "ESP\nNo disponible:\n\tSu ubicación no está disponible para verificar que se encuentra en el área de la exposición."
+                + "\n\nENG\nUnavailable:\n\tYour location isn't available. We can't verify you're in the area of the exhibition.",
+        "timeout": "\n\nESP\nTimeout:\n\tSe excedió el tiempo de conexión para verificar su ubicación."
+                + "\n\nENG\nTimeout:\n\tThere was a timeout while checking your location.",
+        "unknown": "\n\nESP\nDesconocido:\n\tHubo un error desconocido."
+                + "\n\nENG\nUnknown:\n\tThere was an unknown error."  
+    }
+    errorTextField.innerText = errorTexts[errorType]
+    navigator.geolocation.getCurrentPosition(()=>{},null)
+</script>
+</body>
+</html>
