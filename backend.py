@@ -1,6 +1,7 @@
 from datetime import datetime
 import json
 
+import flask
 from flask import Flask, render_template
 
 from register import date_format
@@ -35,7 +36,10 @@ def load(projector_id):
             "audio_url": f"https://storage.cloud.google.com/pav-audios/{projector_id}/{audio_id}.mp3",
             "current_time": (now - song_start_time).total_seconds()}
 
-    return json.dumps(data)
+    response = flask.jsonify(data)
+    response.headers.add('Access-Control-Allow-Origin', '*')
+
+    return response
 
 @app.route('/projector/<projector>')
 def playaudio(projector):
