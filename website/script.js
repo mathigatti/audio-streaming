@@ -108,7 +108,7 @@ function getCurrentTimeInMinutes(e){
 
 function getRemainingTimeInMinutes(e){
     const {duration,currentTime} = e.srcElement;
-    let remainingTime = (currentTime)? duration-currentTime : 0;
+    let remainingTime = currentTime ? duration-currentTime : 0;
     let min = currentTime ? Math.floor(remainingTime/60): 0;
     let sec = currentTime ? Math.floor(remainingTime-(min*60)) : 0;
     return "-"+timeFormat(min,sec)
@@ -129,5 +129,6 @@ audio.addEventListener('timeupdate',updateTimeInfo);
 document.addEventListener("DOMContentLoaded", function() {
     lang = params.get("lang");
     lang == 'es' ? setEspanol() : setEnglish();
+    audio.crossOrigin = 'anonymous';
     tick();
 });
