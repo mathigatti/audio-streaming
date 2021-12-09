@@ -132,7 +132,12 @@ document.addEventListener("DOMContentLoaded", function() {
     //tick();
 });
 
+var first = true
+
 document.body.addEventListener('click', ()=>{
-    tick()
+    if(first){
+        tick()
+        first = false
+    }
 }
 )
