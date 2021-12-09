@@ -78,7 +78,7 @@ function errorCatch(error){
 const MAX_DESYNC = 2
 async function tick(firstTick=false) {
     try {
-        fetch(`https://8744-190-19-109-14.ngrok.io/projector/${getProjectorIdFrom(proy,lang)}`)
+        fetch(`https://605a-190-19-109-14.ngrok.io/projector/${getProjectorIdFrom(proy,lang)}`)
             .then(response => response.json())
             .then(data => correctAudioState(audio,data,true,firstTick))
     }finally {

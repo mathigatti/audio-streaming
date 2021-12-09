@@ -3,7 +3,6 @@ import json
 import serial
 from datetime import datetime
 
-ser = serial.Serial('/dev/ttyACM0',9600)
 date_format = "%d-%b-%Y %H:%M:%S.%f"
 
 def write_json(projector_id, n):
@@ -27,6 +26,8 @@ def run(projector_id, total_audios):
         write_json(projector_id, n)
 
 if __name__ == "__main__":
+    ser = serial.Serial('/dev/ttyACM0',9600)
+
     args = sys.argv # [this_script, projector_id, q_audios]
     projector_id = args[1]
     total_audios = int(args[2])
