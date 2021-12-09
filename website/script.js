@@ -130,7 +130,7 @@ function updateTimeInfo(e){
 document.addEventListener("DOMContentLoaded", function() {
     lang = params.get("lang");
     lang == 'es' ? setEspanol() : setEnglish();
-    fetch(`https://8744-190-19-109-14.ngrok.io/projector/${getProjectorIdFrom(proy,lang)}`)
+    fetch(`https://605a-190-19-109-14.ngrok.io/projector/${getProjectorIdFrom(proy,lang)}`)
             .then(response => response.json())
             .then(data => { 
                 audio = new Audio(data['audio_url']);
