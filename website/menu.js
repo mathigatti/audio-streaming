@@ -98,5 +98,5 @@ function geoError(error) {
 document.addEventListener("DOMContentLoaded", function() {
     lang = params.get("lang");
     lang == 'es' ? setEspanol() : setEnglish()
-    getLocation();
+    //getLocation();
 });
