@@ -143,14 +143,14 @@ document.addEventListener("DOMContentLoaded", function() {
             });
 });
 
-var first = true
+var first = true;
 
 document.body.addEventListener('click', ()=>{
     if(first){
         console.log("Click, audio source:"+audio.src) //LOG
         audio.play();
-        tick(true)
-        setTimeout(tick(),MAX_DESYNC*1000)
+        tick(true);
+        setTimeout(tick(),MAX_DESYNC*1000);
         first = false;
     }
     audio.addEventListener('timeupdate',updateTimeInfo);
