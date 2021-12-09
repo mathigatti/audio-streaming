@@ -129,5 +129,10 @@ audio.addEventListener('timeupdate',updateTimeInfo);
 document.addEventListener("DOMContentLoaded", function() {
     lang = params.get("lang");
     lang == 'es' ? setEspanol() : setEnglish();
-    tick();
+    //tick();
 });
+
+document.body.addEventListener('click', ()=>{
+    tick()
+}
+)
