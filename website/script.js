@@ -58,7 +58,7 @@ function correctAudioState(current,expected){
     if (Math.abs(audio.currentTime - expected.currentTime) > MAX_DESYNC){
         audio.currentTime = expected['current_time'] + MAX_DESYNC/2;
     }
-    audio.play().catch(errorCatch)
+    audio.play()//.catch(errorCatch)
 }
 
 function getProjectorIdFrom(n,lang){
