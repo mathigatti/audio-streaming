@@ -25,3 +25,13 @@ Luego se consulta, por ejemplo por el proyector 1, accediendo a http://localhost
 ### Frontend
 
 El sitio web seria un sitio hecho en javascript + html que tendria 3 botones simplemente. Uno por cada proyector, si apretás un proyector se marca como que se te va a reproducir el audio de ese proyector. Si hay algun proyector seleccionado el sitio cada 5 segundos le pega a la API para ver si tiene que cambiar de track o si esta atrasado con el timing.
+
+
+#### Testing the frontend
+
+You can run the backend like this:
+
+`python backend.py`
+
+Then use ngrok to run it in a public URL
+`./ngrok http 5000`

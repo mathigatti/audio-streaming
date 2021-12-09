@@ -30,11 +30,17 @@ def load(projector_id):
 
     song_start_time = datetime.strptime(date_string, date_format)
     now = datetime.now()
+    elapsed_time = (now - song_start_time).total_seconds()
+    elapsed_time = elapsed_time % 10 # Sumo esto para testear. Para que el contador vaya de 0 a 1 todo el tiempo
 
-    data = {"author": authors[code_author_id], 
+    data = {
+
+            "author": authors[code_author_id], 
             "caption": captions[caption_id],
             "audio_url": f"https://storage.cloud.google.com/pav-audios/{projector_id}/{audio_id}.mp3",
-            "current_time": (now - song_start_time).total_seconds()}
+            "current_time": elapsed_time
+
+            }
 
     response = flask.jsonify(data)
     response.headers.add('Access-Control-Allow-Origin', '*')
