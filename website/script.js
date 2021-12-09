@@ -80,7 +80,10 @@ async function tick(firstTick=false) {
     try {
         fetch(`https://605a-190-19-109-14.ngrok.io/projector/${getProjectorIdFrom(proy,lang)}`)
             .then(response => response.json())
-            .then(data => correctAudioState(audio,data,true,firstTick))
+            .then(data => {correctAudioState(audio,data,true,firstTick)
+                console.log("Load, url recibido: "+data['audio_url'])//LOG
+                console.log("Load, audio source: "+audio.src);//LOG
+            })
     }finally {
         if(!firstTick)
             setTimeout(tick, MAX_DESYNC*1000)
@@ -135,6 +138,8 @@ document.addEventListener("DOMContentLoaded", function() {
             .then(data => { 
                 audio = new Audio(data['audio_url']);
                 audio.load();
+                console.log("Load, url recibido: "+data['audio_url'])//LOG
+                console.log("Load, audio source: "+audio.src);//LOG
             });
 });
 
@@ -142,6 +147,7 @@ var first = true
 
 document.body.addEventListener('click', ()=>{
     if(first){
+        console.log("Click, audio source:"+audio.src) //LOG
         audio.play();
         tick(true)
         setTimeout(tick(),MAX_DESYNC*1000)
