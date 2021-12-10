@@ -83,7 +83,7 @@ function correctAudioState(current,expected){
 const MAX_DESYNC = 2
 async function tick() {
     try {
-        fetch(`https://605a-190-19-109-14.ngrok.io/projector/${getProjectorIdFrom(proy,lang)}`)
+        fetch(`https://us-central1-chatbot-gpt2.cloudfunctions.net/pidgeon?projector=${getProjectorIdFrom(proy,lang)}`)
             .then(response => response.json())
             .then(data => correctAudioState(player,data))
     }finally {
