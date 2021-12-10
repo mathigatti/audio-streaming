@@ -148,18 +148,18 @@ function timeFormat(min,sec){
     return zfill2(min)+":"+zfill2(sec)
 }
 
-function iOS() {
-    return [
-      'iPad Simulator',
-      'iPhone Simulator',
-      'iPod Simulator',
-      'iPad',
-      'iPhone',
-      'iPod'
-    ].includes(navigator.platform)
-    // iPad on iOS 13 detection
-    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
-}
+// function iOS() {
+//     return [
+//       'iPad Simulator',
+//       'iPhone Simulator',
+//       'iPod Simulator',
+//       'iPad',
+//       'iPhone',
+//       'iPod'
+//     ].includes(navigator.platform)
+//     // iPad on iOS 13 detection
+//     || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+// }
 
 var first = true;
 
@@ -169,22 +169,13 @@ document.addEventListener("DOMContentLoaded", function() {
     //tick();
 });
 
-if (!iOS()){
-    document.body.addEventListener('click', ()=>{
-            if(first){
-                clock.context.resume().then(()=>{clock.start()});
-                player.autostart = true;
-                first = false;
-            }
-        }
-    )
-}
 
-if(iOS()){
-    document.body.addEventListener('touchstart', ()=>{
-        clock.context.resume().then(()=>{clock.start()});
-        player.autostart = true;
-        first = false;
-    }
-    )
-}
+document.body.addEventListener("click", () => {
+	if (first) {
+		Tone.start().then(() => {
+			clock.start();
+		});
+		player.autostart = true;
+		first = false;
+	}
+});
