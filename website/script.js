@@ -160,6 +160,9 @@ document.body.addEventListener('click', ()=>{
             tick()
             clock.start()
             player.autostart = true;
+            if (player == "stopped"){
+                player.start();
+            }
             first = false
         }
     }
