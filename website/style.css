@@ -3,7 +3,7 @@
 
 html{
     /*height: 90vh;*/
-    height: -webkit-fill-available;
+    /*height: -webkit-fill-available;*/
 }
 
 body{
@@ -11,10 +11,10 @@ body{
     color: white;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 300;
-    /*height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-    /*height: calc(var(--vh, 1vh) * 90);*/
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 90);
     min-height: 100vh;
-    min-height: -webkit-fill-available;
+    /*min-height: -webkit-fill-available;*/
 }
 
 a{
