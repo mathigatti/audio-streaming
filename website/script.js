@@ -52,7 +52,6 @@ function errorCatch(error){
 }
 
 var player = new Tone.Player().toDestination();
-player.autostart = true;
 
 // made up parameters
 player.src = ""
@@ -127,11 +126,11 @@ function updateTimeInfo(){
 }
 
 const clock = new Tone.Clock(time => {
+    tick();
     updateProgress();
     updateTimeInfo();
-}, 3);
+}, 1);
 
-clock.start()
 
 function zfill2(n){
     n = Number(n).toString()
@@ -150,9 +149,11 @@ document.addEventListener("DOMContentLoaded", function() {
 var first = true;
 
 document.body.addEventListener('click', ()=>{
-    if(first){
-        tick()
-        first = false
+        if(first){
+            tick()
+            clock.start()
+            player.autostart = true;
+            first = false
+        }
     }
-}
 )
