@@ -1,1730 +1,2594 @@
 {
-  "p1en0001": {
-    "caption_id": 0,
-    "code_author_id": 0
-  },
-  "p1en0002": {
-    "caption_id": 1,
-    "code_author_id": 0
-  },
-  "p1en0003": {
-    "caption_id": 2,
-    "code_author_id": 0
-  },
-  "p1en0004": {
-    "caption_id": 3,
-    "code_author_id": 0
-  },
-  "p1en0005": {
-    "caption_id": 4,
-    "code_author_id": 0
-  },
-  "p1en0006": {
-    "caption_id": 5,
-    "code_author_id": 0
-  },
-  "p1en0007": {
-    "caption_id": 6,
-    "code_author_id": 0
-  },
-  "p1en0008": {
-    "caption_id": 7,
-    "code_author_id": 0
-  },
-  "p1en0009": {
-    "caption_id": 8,
-    "code_author_id": 0
-  },
-  "p1en0010": {
-    "caption_id": 9,
-    "code_author_id": 0
-  },
-  "p1en0011": {
-    "caption_id": 10,
-    "code_author_id": 0
-  },
-  "p1en0012": {
-    "caption_id": 11,
-    "code_author_id": 0
-  },
-  "p1en0013": {
-    "caption_id": 12,
-    "code_author_id": 0
-  },
-  "p1en0014": {
-    "caption_id": 13,
-    "code_author_id": 0
-  },
-  "p1en0015": {
-    "caption_id": 14,
-    "code_author_id": 0
-  },
-  "p1en0016": {
-    "caption_id": 15,
-    "code_author_id": 0
-  },
-  "p1en0017": {
-    "caption_id": 16,
-    "code_author_id": 0
-  },
-  "p1en0018": {
-    "caption_id": 17,
-    "code_author_id": 0
-  },
-  "p1en0019": {
-    "caption_id": 18,
-    "code_author_id": 0
-  },
-  "p1en0020": {
-    "caption_id": 19,
-    "code_author_id": 0
-  },
-  "p1en0021": {
-    "caption_id": 20,
-    "code_author_id": 0
-  },
-  "p1en0022": {
-    "caption_id": 21,
-    "code_author_id": 0
-  },
-  "p1en0023": {
-    "caption_id": 22,
-    "code_author_id": 0
-  },
-  "p1en0024": {
-    "caption_id": 23,
-    "code_author_id": 0
-  },
-  "p1es0001": {
-    "caption_id": 24,
-    "code_author_id": 1
-  },
-  "p1es0002": {
-    "caption_id": 25,
-    "code_author_id": 1
-  },
-  "p1es0003": {
-    "caption_id": 26,
-    "code_author_id": 1
-  },
-  "p1es0004": {
-    "caption_id": 27,
-    "code_author_id": 1
-  },
-  "p1es0005": {
-    "caption_id": 28,
-    "code_author_id": 1
-  },
-  "p1es0006": {
-    "caption_id": 29,
-    "code_author_id": 1
-  },
-  "p1es0007": {
-    "caption_id": 30,
-    "code_author_id": 1
-  },
-  "p1es0008": {
-    "caption_id": 31,
-    "code_author_id": 1
-  },
-  "p1es0009": {
-    "caption_id": 32,
-    "code_author_id": 1
-  },
-  "p1es0010": {
-    "caption_id": 33,
-    "code_author_id": 1
-  },
-  "p1es0011": {
-    "caption_id": 34,
-    "code_author_id": 1
-  },
-  "p1es0012": {
-    "caption_id": 35,
-    "code_author_id": 1
-  },
-  "p1es0013": {
-    "caption_id": 36,
-    "code_author_id": 1
-  },
-  "p1es0014": {
-    "caption_id": 37,
-    "code_author_id": 1
-  },
-  "p1es0015": {
-    "caption_id": 38,
-    "code_author_id": 1
-  },
-  "p1es0016": {
-    "caption_id": 39,
-    "code_author_id": 1
-  },
-  "p1es0017": {
-    "caption_id": 40,
-    "code_author_id": 1
-  },
-  "p1es0018": {
-    "caption_id": 41,
-    "code_author_id": 1
-  },
-  "p1es0019": {
-    "caption_id": 42,
-    "code_author_id": 1
-  },
-  "p1es0020": {
-    "caption_id": 43,
-    "code_author_id": 1
-  },
-  "p1es0021": {
-    "caption_id": 44,
-    "code_author_id": 1
-  },
-  "p1es0022": {
-    "caption_id": 45,
-    "code_author_id": 1
-  },
-  "p1es0023": {
-    "caption_id": 46,
-    "code_author_id": 1
-  },
-  "p1es0024": {
-    "caption_id": 47,
-    "code_author_id": 1
-  },
-  "p1en0025": {
-    "caption_id": 48,
-    "code_author_id": 2
-  },
-  "p1en0026": {
-    "caption_id": 49,
-    "code_author_id": 2
-  },
-  "p1en0027": {
-    "caption_id": 50,
-    "code_author_id": 2
-  },
-  "p1en0028": {
-    "caption_id": 51,
-    "code_author_id": 2
-  },
-  "p1en0029": {
-    "caption_id": 52,
-    "code_author_id": 2
-  },
-  "p1en0030": {
-    "caption_id": 53,
-    "code_author_id": 2
-  },
-  "p1en0031": {
-    "caption_id": 54,
-    "code_author_id": 2
-  },
-  "p1en0032": {
-    "caption_id": 55,
-    "code_author_id": 2
-  },
-  "p1en0033": {
-    "caption_id": 56,
-    "code_author_id": 2
-  },
-  "p1en0034": {
-    "caption_id": 57,
-    "code_author_id": 2
-  },
-  "p1en0035": {
-    "caption_id": 58,
-    "code_author_id": 2
-  },
-  "p1en0036": {
-    "caption_id": 59,
-    "code_author_id": 2
-  },
-  "p1en0037": {
-    "caption_id": 60,
-    "code_author_id": 2
-  },
-  "p1en0038": {
-    "caption_id": 61,
-    "code_author_id": 2
-  },
-  "p1en0039": {
-    "caption_id": 62,
-    "code_author_id": 2
-  },
-  "p1en0040": {
-    "caption_id": 63,
-    "code_author_id": 2
-  },
-  "p1en0041": {
-    "caption_id": 64,
-    "code_author_id": 2
-  },
-  "p1en0042": {
-    "caption_id": 65,
-    "code_author_id": 2
-  },
-  "p1en0043": {
-    "caption_id": 66,
-    "code_author_id": 2
-  },
-  "p1en0044": {
-    "caption_id": 67,
-    "code_author_id": 2
-  },
-  "p1en0045": {
-    "caption_id": 68,
-    "code_author_id": 2
-  },
-  "p1en0046": {
-    "caption_id": 69,
-    "code_author_id": 2
-  },
-  "p1en0047": {
-    "caption_id": 70,
-    "code_author_id": 2
-  },
-  "p1en0048": {
-    "caption_id": 71,
-    "code_author_id": 2
-  },
-  "p1es0025": {
-    "caption_id": 72,
-    "code_author_id": 3
-  },
-  "p1es0026": {
-    "caption_id": 73,
-    "code_author_id": 3
-  },
-  "p1es0027": {
-    "caption_id": 74,
-    "code_author_id": 3
-  },
-  "p1es0028": {
-    "caption_id": 75,
-    "code_author_id": 3
-  },
-  "p1es0029": {
-    "caption_id": 76,
-    "code_author_id": 3
-  },
-  "p1es0030": {
-    "caption_id": 77,
-    "code_author_id": 3
-  },
-  "p1es0031": {
-    "caption_id": 78,
-    "code_author_id": 3
-  },
-  "p1es0032": {
-    "caption_id": 79,
-    "code_author_id": 3
-  },
-  "p1es0033": {
-    "caption_id": 80,
-    "code_author_id": 3
-  },
-  "p1es0034": {
-    "caption_id": 81,
-    "code_author_id": 3
-  },
-  "p1es0035": {
-    "caption_id": 82,
-    "code_author_id": 3
-  },
-  "p1es0036": {
-    "caption_id": 83,
-    "code_author_id": 3
-  },
-  "p1es0037": {
-    "caption_id": 84,
-    "code_author_id": 3
-  },
-  "p1es0038": {
-    "caption_id": 85,
-    "code_author_id": 3
-  },
-  "p1es0039": {
-    "caption_id": 86,
-    "code_author_id": 3
-  },
-  "p1es0040": {
-    "caption_id": 87,
-    "code_author_id": 3
-  },
-  "p1es0041": {
-    "caption_id": 88,
-    "code_author_id": 3
-  },
-  "p1es0042": {
-    "caption_id": 89,
-    "code_author_id": 3
-  },
-  "p1es0043": {
-    "caption_id": 90,
-    "code_author_id": 3
-  },
-  "p1es0044": {
-    "caption_id": 91,
-    "code_author_id": 3
-  },
-  "p1es0045": {
-    "caption_id": 92,
-    "code_author_id": 3
-  },
-  "p1es0046": {
-    "caption_id": 93,
-    "code_author_id": 3
-  },
-  "p1es0047": {
-    "caption_id": 94,
-    "code_author_id": 3
-  },
-  "p1es0048": {
-    "caption_id": 95,
-    "code_author_id": 3
-  },
-  "p1en0049": {
-    "caption_id": 96,
-    "code_author_id": 4
-  },
-  "p1en0050": {
-    "caption_id": 97,
-    "code_author_id": 4
-  },
-  "p1en0051": {
-    "caption_id": 98,
-    "code_author_id": 4
-  },
-  "p1en0052": {
-    "caption_id": 99,
-    "code_author_id": 4
-  },
-  "p1en0053": {
-    "caption_id": 100,
-    "code_author_id": 4
-  },
-  "p1en0054": {
-    "caption_id": 101,
-    "code_author_id": 4
-  },
-  "p1en0055": {
-    "caption_id": 102,
-    "code_author_id": 4
-  },
-  "p1en0056": {
-    "caption_id": 103,
-    "code_author_id": 4
-  },
-  "p1en0057": {
-    "caption_id": 104,
-    "code_author_id": 4
-  },
-  "p1en0058": {
-    "caption_id": 105,
-    "code_author_id": 4
-  },
-  "p1en0059": {
-    "caption_id": 106,
-    "code_author_id": 4
-  },
-  "p1en0060": {
-    "caption_id": 107,
-    "code_author_id": 4
-  },
-  "p1en0061": {
-    "caption_id": 108,
-    "code_author_id": 4
-  },
-  "p1en0062": {
-    "caption_id": 109,
-    "code_author_id": 4
-  },
-  "p1en0063": {
-    "caption_id": 110,
-    "code_author_id": 4
-  },
-  "p1en0064": {
-    "caption_id": 111,
-    "code_author_id": 4
-  },
-  "p1en0065": {
-    "caption_id": 112,
-    "code_author_id": 4
-  },
-  "p1en0066": {
-    "caption_id": 113,
-    "code_author_id": 4
-  },
-  "p1en0067": {
-    "caption_id": 114,
-    "code_author_id": 4
-  },
-  "p1en0068": {
-    "caption_id": 115,
-    "code_author_id": 4
-  },
-  "p1en0069": {
-    "caption_id": 116,
-    "code_author_id": 4
-  },
-  "p1en0070": {
-    "caption_id": 117,
-    "code_author_id": 4
-  },
-  "p1en0071": {
-    "caption_id": 118,
-    "code_author_id": 4
-  },
-  "p1en0072": {
-    "caption_id": 119,
-    "code_author_id": 4
-  },
-  "p1es0049": {
-    "caption_id": 120,
-    "code_author_id": 5
-  },
-  "p1es0050": {
-    "caption_id": 121,
-    "code_author_id": 5
-  },
-  "p1es0051": {
-    "caption_id": 122,
-    "code_author_id": 5
-  },
-  "p1es0052": {
-    "caption_id": 123,
-    "code_author_id": 5
-  },
-  "p1es0053": {
-    "caption_id": 124,
-    "code_author_id": 5
-  },
-  "p1es0054": {
-    "caption_id": 125,
-    "code_author_id": 5
-  },
-  "p1es0055": {
-    "caption_id": 126,
-    "code_author_id": 5
-  },
-  "p1es0056": {
-    "caption_id": 127,
-    "code_author_id": 5
-  },
-  "p1es0057": {
-    "caption_id": 128,
-    "code_author_id": 5
-  },
-  "p1es0058": {
-    "caption_id": 129,
-    "code_author_id": 5
-  },
-  "p1es0059": {
-    "caption_id": 130,
-    "code_author_id": 5
-  },
-  "p1es0060": {
-    "caption_id": 131,
-    "code_author_id": 5
-  },
-  "p1es0061": {
-    "caption_id": 132,
-    "code_author_id": 5
-  },
-  "p1es0062": {
-    "caption_id": 133,
-    "code_author_id": 5
-  },
-  "p1es0063": {
-    "caption_id": 134,
-    "code_author_id": 5
-  },
-  "p1es0064": {
-    "caption_id": 135,
-    "code_author_id": 5
-  },
-  "p1es0065": {
-    "caption_id": 136,
-    "code_author_id": 5
-  },
-  "p1es0066": {
-    "caption_id": 137,
-    "code_author_id": 5
-  },
-  "p1es0067": {
-    "caption_id": 138,
-    "code_author_id": 5
-  },
-  "p1es0068": {
-    "caption_id": 139,
-    "code_author_id": 5
-  },
-  "p1es0069": {
-    "caption_id": 140,
-    "code_author_id": 5
-  },
-  "p1es0070": {
-    "caption_id": 141,
-    "code_author_id": 5
-  },
-  "p1es0071": {
-    "caption_id": 142,
-    "code_author_id": 5
-  },
-  "p1es0072": {
-    "caption_id": 143,
-    "code_author_id": 5
-  },
-  "p2en0001": {
-    "caption_id": 144,
-    "code_author_id": 6
-  },
-  "p2en0002": {
-    "caption_id": 145,
-    "code_author_id": 6
-  },
-  "p2en0003": {
-    "caption_id": 146,
-    "code_author_id": 6
-  },
-  "p2en0004": {
-    "caption_id": 147,
-    "code_author_id": 6
-  },
-  "p2en0005": {
-    "caption_id": 148,
-    "code_author_id": 6
-  },
-  "p2en0006": {
-    "caption_id": 149,
-    "code_author_id": 6
-  },
-  "p2en0007": {
-    "caption_id": 150,
-    "code_author_id": 6
-  },
-  "p2en0008": {
-    "caption_id": 151,
-    "code_author_id": 6
-  },
-  "p2en0009": {
-    "caption_id": 152,
-    "code_author_id": 6
-  },
-  "p2en0010": {
-    "caption_id": 153,
-    "code_author_id": 6
-  },
-  "p2en0011": {
-    "caption_id": 154,
-    "code_author_id": 6
-  },
-  "p2en0012": {
-    "caption_id": 155,
-    "code_author_id": 6
-  },
-  "p2en0013": {
-    "caption_id": 156,
-    "code_author_id": 6
-  },
-  "p2en0014": {
-    "caption_id": 157,
-    "code_author_id": 6
-  },
-  "p2en0015": {
-    "caption_id": 158,
-    "code_author_id": 6
-  },
-  "p2en0016": {
-    "caption_id": 159,
-    "code_author_id": 6
-  },
-  "p2en0017": {
-    "caption_id": 160,
-    "code_author_id": 6
-  },
-  "p2en0018": {
-    "caption_id": 161,
-    "code_author_id": 6
-  },
-  "p2en0019": {
-    "caption_id": 162,
-    "code_author_id": 6
-  },
-  "p2en0020": {
-    "caption_id": 163,
-    "code_author_id": 6
-  },
-  "p2en0021": {
-    "caption_id": 164,
-    "code_author_id": 6
-  },
-  "p2en0022": {
-    "caption_id": 165,
-    "code_author_id": 6
-  },
-  "p2en0023": {
-    "caption_id": 166,
-    "code_author_id": 6
-  },
-  "p2en0024": {
-    "caption_id": 167,
-    "code_author_id": 6
-  },
-  "p2es0001": {
-    "caption_id": 168,
-    "code_author_id": 7
-  },
-  "p2es0002": {
-    "caption_id": 169,
-    "code_author_id": 7
-  },
-  "p2es0003": {
-    "caption_id": 170,
-    "code_author_id": 7
-  },
-  "p2es0004": {
-    "caption_id": 171,
-    "code_author_id": 7
-  },
-  "p2es0005": {
-    "caption_id": 172,
-    "code_author_id": 7
-  },
-  "p2es0006": {
-    "caption_id": 173,
-    "code_author_id": 7
-  },
-  "p2es0007": {
-    "caption_id": 174,
-    "code_author_id": 7
-  },
-  "p2es0008": {
-    "caption_id": 175,
-    "code_author_id": 7
-  },
-  "p2es0009": {
-    "caption_id": 176,
-    "code_author_id": 7
-  },
-  "p2es0010": {
-    "caption_id": 177,
-    "code_author_id": 7
-  },
-  "p2es0011": {
-    "caption_id": 178,
-    "code_author_id": 7
-  },
-  "p2es0012": {
-    "caption_id": 179,
-    "code_author_id": 7
-  },
-  "p2es0013": {
-    "caption_id": 180,
-    "code_author_id": 7
-  },
-  "p2es0014": {
-    "caption_id": 181,
-    "code_author_id": 7
-  },
-  "p2es0015": {
-    "caption_id": 182,
-    "code_author_id": 7
-  },
-  "p2es0016": {
-    "caption_id": 183,
-    "code_author_id": 7
-  },
-  "p2es0017": {
-    "caption_id": 184,
-    "code_author_id": 7
-  },
-  "p2es0018": {
-    "caption_id": 185,
-    "code_author_id": 7
-  },
-  "p2es0019": {
-    "caption_id": 186,
-    "code_author_id": 7
-  },
-  "p2es0020": {
-    "caption_id": 187,
-    "code_author_id": 7
-  },
-  "p2es0021": {
-    "caption_id": 188,
-    "code_author_id": 7
-  },
-  "p2es0022": {
-    "caption_id": 189,
-    "code_author_id": 7
-  },
-  "p2es0023": {
-    "caption_id": 190,
-    "code_author_id": 7
-  },
-  "p2es0024": {
-    "caption_id": 191,
-    "code_author_id": 7
-  },
-  "p2en0025": {
-    "caption_id": 192,
-    "code_author_id": 8
-  },
-  "p2en0026": {
-    "caption_id": 193,
-    "code_author_id": 8
-  },
-  "p2en0027": {
-    "caption_id": 194,
-    "code_author_id": 8
-  },
-  "p2en0028": {
-    "caption_id": 195,
-    "code_author_id": 8
-  },
-  "p2en0029": {
-    "caption_id": 196,
-    "code_author_id": 8
-  },
-  "p2en0030": {
-    "caption_id": 197,
-    "code_author_id": 8
-  },
-  "p2en0031": {
-    "caption_id": 198,
-    "code_author_id": 8
-  },
-  "p2en0032": {
-    "caption_id": 199,
-    "code_author_id": 8
-  },
-  "p2en0033": {
-    "caption_id": 200,
-    "code_author_id": 8
-  },
-  "p2en0034": {
-    "caption_id": 201,
-    "code_author_id": 8
-  },
-  "p2en0035": {
-    "caption_id": 202,
-    "code_author_id": 8
-  },
-  "p2en0036": {
-    "caption_id": 203,
-    "code_author_id": 8
-  },
-  "p2en0037": {
-    "caption_id": 204,
-    "code_author_id": 8
-  },
-  "p2en0038": {
-    "caption_id": 205,
-    "code_author_id": 8
-  },
-  "p2en0039": {
-    "caption_id": 206,
-    "code_author_id": 8
-  },
-  "p2en0040": {
-    "caption_id": 207,
-    "code_author_id": 8
-  },
-  "p2en0041": {
-    "caption_id": 208,
-    "code_author_id": 8
-  },
-  "p2en0042": {
-    "caption_id": 209,
-    "code_author_id": 8
-  },
-  "p2en0043": {
-    "caption_id": 210,
-    "code_author_id": 8
-  },
-  "p2en0044": {
-    "caption_id": 211,
-    "code_author_id": 8
-  },
-  "p2en0045": {
-    "caption_id": 212,
-    "code_author_id": 8
-  },
-  "p2en0046": {
-    "caption_id": 213,
-    "code_author_id": 8
-  },
-  "p2en0047": {
-    "caption_id": 214,
-    "code_author_id": 8
-  },
-  "p2en0048": {
-    "caption_id": 215,
-    "code_author_id": 8
-  },
-  "p2es0025": {
-    "caption_id": 216,
-    "code_author_id": 9
-  },
-  "p2es0026": {
-    "caption_id": 217,
-    "code_author_id": 9
-  },
-  "p2es0027": {
-    "caption_id": 218,
-    "code_author_id": 9
-  },
-  "p2es0028": {
-    "caption_id": 219,
-    "code_author_id": 9
-  },
-  "p2es0029": {
-    "caption_id": 220,
-    "code_author_id": 9
-  },
-  "p2es0030": {
-    "caption_id": 221,
-    "code_author_id": 9
-  },
-  "p2es0031": {
-    "caption_id": 222,
-    "code_author_id": 9
-  },
-  "p2es0032": {
-    "caption_id": 223,
-    "code_author_id": 9
-  },
-  "p2es0033": {
-    "caption_id": 224,
-    "code_author_id": 9
-  },
-  "p2es0034": {
-    "caption_id": 225,
-    "code_author_id": 9
-  },
-  "p2es0035": {
-    "caption_id": 226,
-    "code_author_id": 9
-  },
-  "p2es0036": {
-    "caption_id": 227,
-    "code_author_id": 9
-  },
-  "p2es0037": {
-    "caption_id": 228,
-    "code_author_id": 9
-  },
-  "p2es0038": {
-    "caption_id": 229,
-    "code_author_id": 9
-  },
-  "p2es0039": {
-    "caption_id": 230,
-    "code_author_id": 9
-  },
-  "p2es0040": {
-    "caption_id": 231,
-    "code_author_id": 9
-  },
-  "p2es0041": {
-    "caption_id": 232,
-    "code_author_id": 9
-  },
-  "p2es0042": {
-    "caption_id": 233,
-    "code_author_id": 9
-  },
-  "p2es0043": {
-    "caption_id": 234,
-    "code_author_id": 9
-  },
-  "p2es0044": {
-    "caption_id": 235,
-    "code_author_id": 9
-  },
-  "p2es0045": {
-    "caption_id": 236,
-    "code_author_id": 9
-  },
-  "p2es0046": {
-    "caption_id": 237,
-    "code_author_id": 9
-  },
-  "p2es0047": {
-    "caption_id": 238,
-    "code_author_id": 9
-  },
-  "p2es0048": {
-    "caption_id": 239,
-    "code_author_id": 9
-  },
-  "p2en0049": {
-    "caption_id": 240,
-    "code_author_id": 10
-  },
-  "p2en0050": {
-    "caption_id": 241,
-    "code_author_id": 10
-  },
-  "p2en0051": {
-    "caption_id": 242,
-    "code_author_id": 10
-  },
-  "p2en0052": {
-    "caption_id": 243,
-    "code_author_id": 10
-  },
-  "p2en0053": {
-    "caption_id": 244,
-    "code_author_id": 10
-  },
-  "p2en0054": {
-    "caption_id": 245,
-    "code_author_id": 10
-  },
-  "p2en0055": {
-    "caption_id": 246,
-    "code_author_id": 10
-  },
-  "p2en0056": {
-    "caption_id": 247,
-    "code_author_id": 10
-  },
-  "p2en0057": {
-    "caption_id": 248,
-    "code_author_id": 10
-  },
-  "p2en0058": {
-    "caption_id": 249,
-    "code_author_id": 10
-  },
-  "p2en0059": {
-    "caption_id": 250,
-    "code_author_id": 10
-  },
-  "p2en0060": {
-    "caption_id": 251,
-    "code_author_id": 10
-  },
-  "p2en0061": {
-    "caption_id": 252,
-    "code_author_id": 10
-  },
-  "p2en0062": {
-    "caption_id": 253,
-    "code_author_id": 10
-  },
-  "p2en0063": {
-    "caption_id": 254,
-    "code_author_id": 10
-  },
-  "p2en0064": {
-    "caption_id": 255,
-    "code_author_id": 10
-  },
-  "p2en0065": {
-    "caption_id": 256,
-    "code_author_id": 10
-  },
-  "p2en0066": {
-    "caption_id": 257,
-    "code_author_id": 10
-  },
-  "p2en0067": {
-    "caption_id": 258,
-    "code_author_id": 10
-  },
-  "p2en0068": {
-    "caption_id": 259,
-    "code_author_id": 10
-  },
-  "p2en0069": {
-    "caption_id": 260,
-    "code_author_id": 10
-  },
-  "p2en0070": {
-    "caption_id": 261,
-    "code_author_id": 10
-  },
-  "p2en0071": {
-    "caption_id": 262,
-    "code_author_id": 10
-  },
-  "p2en0072": {
-    "caption_id": 263,
-    "code_author_id": 10
-  },
-  "p2es0049": {
-    "caption_id": 264,
-    "code_author_id": 11
-  },
-  "p2es0050": {
-    "caption_id": 265,
-    "code_author_id": 11
-  },
-  "p2es0051": {
-    "caption_id": 266,
-    "code_author_id": 11
-  },
-  "p2es0052": {
-    "caption_id": 267,
-    "code_author_id": 11
-  },
-  "p2es0053": {
-    "caption_id": 268,
-    "code_author_id": 11
-  },
-  "p2es0054": {
-    "caption_id": 269,
-    "code_author_id": 11
-  },
-  "p2es0055": {
-    "caption_id": 270,
-    "code_author_id": 11
-  },
-  "p2es0056": {
-    "caption_id": 271,
-    "code_author_id": 11
-  },
-  "p2es0057": {
-    "caption_id": 272,
-    "code_author_id": 11
-  },
-  "p2es0058": {
-    "caption_id": 273,
-    "code_author_id": 11
-  },
-  "p2es0059": {
-    "caption_id": 274,
-    "code_author_id": 11
-  },
-  "p2es0060": {
-    "caption_id": 275,
-    "code_author_id": 11
-  },
-  "p2es0061": {
-    "caption_id": 276,
-    "code_author_id": 11
-  },
-  "p2es0062": {
-    "caption_id": 277,
-    "code_author_id": 11
-  },
-  "p2es0063": {
-    "caption_id": 278,
-    "code_author_id": 11
-  },
-  "p2es0064": {
-    "caption_id": 279,
-    "code_author_id": 11
-  },
-  "p2es0065": {
-    "caption_id": 280,
-    "code_author_id": 11
-  },
-  "p2es0066": {
-    "caption_id": 281,
-    "code_author_id": 11
-  },
-  "p2es0067": {
-    "caption_id": 282,
-    "code_author_id": 11
-  },
-  "p2es0068": {
-    "caption_id": 283,
-    "code_author_id": 11
-  },
-  "p2es0069": {
-    "caption_id": 284,
-    "code_author_id": 11
-  },
-  "p2es0070": {
-    "caption_id": 285,
-    "code_author_id": 11
-  },
-  "p2es0071": {
-    "caption_id": 286,
-    "code_author_id": 11
-  },
-  "p2es0072": {
-    "caption_id": 287,
-    "code_author_id": 11
-  },
-  "p3en0001": {
-    "caption_id": 288,
-    "code_author_id": 12
-  },
-  "p3en0002": {
-    "caption_id": 289,
-    "code_author_id": 12
-  },
-  "p3en0003": {
-    "caption_id": 290,
-    "code_author_id": 12
-  },
-  "p3en0004": {
-    "caption_id": 291,
-    "code_author_id": 12
-  },
-  "p3en0005": {
-    "caption_id": 292,
-    "code_author_id": 12
-  },
-  "p3en0006": {
-    "caption_id": 293,
-    "code_author_id": 12
-  },
-  "p3en0007": {
-    "caption_id": 294,
-    "code_author_id": 12
-  },
-  "p3en0008": {
-    "caption_id": 295,
-    "code_author_id": 12
-  },
-  "p3en0009": {
-    "caption_id": 296,
-    "code_author_id": 12
-  },
-  "p3en0010": {
-    "caption_id": 297,
-    "code_author_id": 12
-  },
-  "p3en0011": {
-    "caption_id": 298,
-    "code_author_id": 12
-  },
-  "p3en0012": {
-    "caption_id": 299,
-    "code_author_id": 12
-  },
-  "p3en0013": {
-    "caption_id": 300,
-    "code_author_id": 12
-  },
-  "p3en0014": {
-    "caption_id": 301,
-    "code_author_id": 12
-  },
-  "p3en0015": {
-    "caption_id": 302,
-    "code_author_id": 12
-  },
-  "p3en0016": {
-    "caption_id": 303,
-    "code_author_id": 12
-  },
-  "p3en0017": {
-    "caption_id": 304,
-    "code_author_id": 12
-  },
-  "p3en0018": {
-    "caption_id": 305,
-    "code_author_id": 12
-  },
-  "p3en0019": {
-    "caption_id": 306,
-    "code_author_id": 12
-  },
-  "p3en0020": {
-    "caption_id": 307,
-    "code_author_id": 12
-  },
-  "p3en0021": {
-    "caption_id": 308,
-    "code_author_id": 12
-  },
-  "p3en0022": {
-    "caption_id": 309,
-    "code_author_id": 12
-  },
-  "p3en0023": {
-    "caption_id": 310,
-    "code_author_id": 12
-  },
-  "p3en0024": {
-    "caption_id": 311,
-    "code_author_id": 12
-  },
-  "p3es0001": {
-    "caption_id": 312,
-    "code_author_id": 13
-  },
-  "p3es0002": {
-    "caption_id": 313,
-    "code_author_id": 13
-  },
-  "p3es0003": {
-    "caption_id": 314,
-    "code_author_id": 13
-  },
-  "p3es0004": {
-    "caption_id": 315,
-    "code_author_id": 13
-  },
-  "p3es0005": {
-    "caption_id": 316,
-    "code_author_id": 13
-  },
-  "p3es0006": {
-    "caption_id": 317,
-    "code_author_id": 13
-  },
-  "p3es0007": {
-    "caption_id": 318,
-    "code_author_id": 13
-  },
-  "p3es0008": {
-    "caption_id": 319,
-    "code_author_id": 13
-  },
-  "p3es0009": {
-    "caption_id": 320,
-    "code_author_id": 13
-  },
-  "p3es0010": {
-    "caption_id": 321,
-    "code_author_id": 13
-  },
-  "p3es0011": {
-    "caption_id": 322,
-    "code_author_id": 13
-  },
-  "p3es0012": {
-    "caption_id": 323,
-    "code_author_id": 13
-  },
-  "p3es0013": {
-    "caption_id": 324,
-    "code_author_id": 13
-  },
-  "p3es0014": {
-    "caption_id": 325,
-    "code_author_id": 13
-  },
-  "p3es0015": {
-    "caption_id": 326,
-    "code_author_id": 13
-  },
-  "p3es0016": {
-    "caption_id": 327,
-    "code_author_id": 13
-  },
-  "p3es0017": {
-    "caption_id": 328,
-    "code_author_id": 13
-  },
-  "p3es0018": {
-    "caption_id": 329,
-    "code_author_id": 13
-  },
-  "p3es0019": {
-    "caption_id": 330,
-    "code_author_id": 13
-  },
-  "p3es0020": {
-    "caption_id": 331,
-    "code_author_id": 13
-  },
-  "p3es0021": {
-    "caption_id": 332,
-    "code_author_id": 13
-  },
-  "p3es0022": {
-    "caption_id": 333,
-    "code_author_id": 13
-  },
-  "p3es0023": {
-    "caption_id": 334,
-    "code_author_id": 13
-  },
-  "p3es0024": {
-    "caption_id": 335,
-    "code_author_id": 13
-  },
-  "p3en0025": {
-    "caption_id": 336,
-    "code_author_id": 14
-  },
-  "p3en0026": {
-    "caption_id": 337,
-    "code_author_id": 14
-  },
-  "p3en0027": {
-    "caption_id": 338,
-    "code_author_id": 14
-  },
-  "p3en0028": {
-    "caption_id": 339,
-    "code_author_id": 14
-  },
-  "p3en0029": {
-    "caption_id": 340,
-    "code_author_id": 14
-  },
-  "p3en0030": {
-    "caption_id": 341,
-    "code_author_id": 14
-  },
-  "p3en0031": {
-    "caption_id": 342,
-    "code_author_id": 14
-  },
-  "p3en0032": {
-    "caption_id": 343,
-    "code_author_id": 14
-  },
-  "p3en0033": {
-    "caption_id": 344,
-    "code_author_id": 14
-  },
-  "p3en0034": {
-    "caption_id": 345,
-    "code_author_id": 14
-  },
-  "p3en0035": {
-    "caption_id": 346,
-    "code_author_id": 14
-  },
-  "p3en0036": {
-    "caption_id": 347,
-    "code_author_id": 14
-  },
-  "p3en0037": {
-    "caption_id": 348,
-    "code_author_id": 14
-  },
-  "p3en0038": {
-    "caption_id": 349,
-    "code_author_id": 14
-  },
-  "p3en0039": {
-    "caption_id": 350,
-    "code_author_id": 14
-  },
-  "p3en0040": {
-    "caption_id": 351,
-    "code_author_id": 14
-  },
-  "p3en0041": {
-    "caption_id": 352,
-    "code_author_id": 14
-  },
-  "p3en0042": {
-    "caption_id": 353,
-    "code_author_id": 14
-  },
-  "p3en0043": {
-    "caption_id": 354,
-    "code_author_id": 14
-  },
-  "p3en0044": {
-    "caption_id": 355,
-    "code_author_id": 14
-  },
-  "p3en0045": {
-    "caption_id": 356,
-    "code_author_id": 14
-  },
-  "p3en0046": {
-    "caption_id": 357,
-    "code_author_id": 14
-  },
-  "p3en0047": {
-    "caption_id": 358,
-    "code_author_id": 14
-  },
-  "p3en0048": {
-    "caption_id": 359,
-    "code_author_id": 14
-  },
-  "p3es0025": {
-    "caption_id": 360,
-    "code_author_id": 15
-  },
-  "p3es0026": {
-    "caption_id": 361,
-    "code_author_id": 15
-  },
-  "p3es0027": {
-    "caption_id": 362,
-    "code_author_id": 15
-  },
-  "p3es0028": {
-    "caption_id": 363,
-    "code_author_id": 15
-  },
-  "p3es0029": {
-    "caption_id": 364,
-    "code_author_id": 15
-  },
-  "p3es0030": {
-    "caption_id": 365,
-    "code_author_id": 15
-  },
-  "p3es0031": {
-    "caption_id": 366,
-    "code_author_id": 15
-  },
-  "p3es0032": {
-    "caption_id": 367,
-    "code_author_id": 15
-  },
-  "p3es0033": {
-    "caption_id": 368,
-    "code_author_id": 15
-  },
-  "p3es0034": {
-    "caption_id": 369,
-    "code_author_id": 15
-  },
-  "p3es0035": {
-    "caption_id": 370,
-    "code_author_id": 15
-  },
-  "p3es0036": {
-    "caption_id": 371,
-    "code_author_id": 15
-  },
-  "p3es0037": {
-    "caption_id": 372,
-    "code_author_id": 15
-  },
-  "p3es0038": {
-    "caption_id": 373,
-    "code_author_id": 15
-  },
-  "p3es0039": {
-    "caption_id": 374,
-    "code_author_id": 15
-  },
-  "p3es0040": {
-    "caption_id": 375,
-    "code_author_id": 15
-  },
-  "p3es0041": {
-    "caption_id": 376,
-    "code_author_id": 15
-  },
-  "p3es0042": {
-    "caption_id": 377,
-    "code_author_id": 15
-  },
-  "p3es0043": {
-    "caption_id": 378,
-    "code_author_id": 15
-  },
-  "p3es0044": {
-    "caption_id": 379,
-    "code_author_id": 15
-  },
-  "p3es0045": {
-    "caption_id": 380,
-    "code_author_id": 15
-  },
-  "p3es0046": {
-    "caption_id": 381,
-    "code_author_id": 15
-  },
-  "p3es0047": {
-    "caption_id": 382,
-    "code_author_id": 15
-  },
-  "p3es0048": {
-    "caption_id": 383,
-    "code_author_id": 15
-  },
-  "p3en0049": {
-    "caption_id": 384,
-    "code_author_id": 16
-  },
-  "p3en0050": {
-    "caption_id": 385,
-    "code_author_id": 16
-  },
-  "p3en0051": {
-    "caption_id": 386,
-    "code_author_id": 16
-  },
-  "p3en0052": {
-    "caption_id": 387,
-    "code_author_id": 16
-  },
-  "p3en0053": {
-    "caption_id": 388,
-    "code_author_id": 16
-  },
-  "p3en0054": {
-    "caption_id": 389,
-    "code_author_id": 16
-  },
-  "p3en0055": {
-    "caption_id": 390,
-    "code_author_id": 16
-  },
-  "p3en0056": {
-    "caption_id": 391,
-    "code_author_id": 16
-  },
-  "p3en0057": {
-    "caption_id": 392,
-    "code_author_id": 16
-  },
-  "p3en0058": {
-    "caption_id": 393,
-    "code_author_id": 16
-  },
-  "p3en0059": {
-    "caption_id": 394,
-    "code_author_id": 16
-  },
-  "p3en0060": {
-    "caption_id": 395,
-    "code_author_id": 16
-  },
-  "p3en0061": {
-    "caption_id": 396,
-    "code_author_id": 16
-  },
-  "p3en0062": {
-    "caption_id": 397,
-    "code_author_id": 16
-  },
-  "p3en0063": {
-    "caption_id": 398,
-    "code_author_id": 16
-  },
-  "p3en0064": {
-    "caption_id": 399,
-    "code_author_id": 16
-  },
-  "p3en0065": {
-    "caption_id": 400,
-    "code_author_id": 16
-  },
-  "p3en0066": {
-    "caption_id": 401,
-    "code_author_id": 16
-  },
-  "p3en0067": {
-    "caption_id": 402,
-    "code_author_id": 16
-  },
-  "p3en0068": {
-    "caption_id": 403,
-    "code_author_id": 16
-  },
-  "p3en0069": {
-    "caption_id": 404,
-    "code_author_id": 16
-  },
-  "p3en0070": {
-    "caption_id": 405,
-    "code_author_id": 16
-  },
-  "p3en0071": {
-    "caption_id": 406,
-    "code_author_id": 16
-  },
-  "p3en0072": {
-    "caption_id": 407,
-    "code_author_id": 16
-  },
-  "p3es0049": {
-    "caption_id": 408,
-    "code_author_id": 17
-  },
-  "p3es0050": {
-    "caption_id": 409,
-    "code_author_id": 17
-  },
-  "p3es0051": {
-    "caption_id": 410,
-    "code_author_id": 17
-  },
-  "p3es0052": {
-    "caption_id": 411,
-    "code_author_id": 17
-  },
-  "p3es0053": {
-    "caption_id": 412,
-    "code_author_id": 17
-  },
-  "p3es0054": {
-    "caption_id": 413,
-    "code_author_id": 17
-  },
-  "p3es0055": {
-    "caption_id": 414,
-    "code_author_id": 17
-  },
-  "p3es0056": {
-    "caption_id": 415,
-    "code_author_id": 17
-  },
-  "p3es0057": {
-    "caption_id": 416,
-    "code_author_id": 17
-  },
-  "p3es0058": {
-    "caption_id": 417,
-    "code_author_id": 17
-  },
-  "p3es0059": {
-    "caption_id": 418,
-    "code_author_id": 17
-  },
-  "p3es0060": {
-    "caption_id": 419,
-    "code_author_id": 17
-  },
-  "p3es0061": {
-    "caption_id": 420,
-    "code_author_id": 17
-  },
-  "p3es0062": {
-    "caption_id": 421,
-    "code_author_id": 17
-  },
-  "p3es0063": {
-    "caption_id": 422,
-    "code_author_id": 17
-  },
-  "p3es0064": {
-    "caption_id": 423,
-    "code_author_id": 17
-  },
-  "p3es0065": {
-    "caption_id": 424,
-    "code_author_id": 17
-  },
-  "p3es0066": {
-    "caption_id": 425,
-    "code_author_id": 17
-  },
-  "p3es0067": {
-    "caption_id": 426,
-    "code_author_id": 17
-  },
-  "p3es0068": {
-    "caption_id": 427,
-    "code_author_id": 17
-  },
-  "p3es0069": {
-    "caption_id": 428,
-    "code_author_id": 17
-  },
-  "p3es0070": {
-    "caption_id": 429,
-    "code_author_id": 17
-  },
-  "p3es0071": {
-    "caption_id": 430,
-    "code_author_id": 17
-  },
-  "p3es0072": {
-    "caption_id": 431,
-    "code_author_id": 17
-  }
+    "p1en0001":
+    {
+        "caption_id": 0,
+        "code_author_id": 0,
+        "duration": 7.1053061224489795
+    },
+    "p1en0002":
+    {
+        "caption_id": 1,
+        "code_author_id": 0,
+        "duration": 84.00979591836735
+    },
+    "p1en0003":
+    {
+        "caption_id": 2,
+        "code_author_id": 0,
+        "duration": 52.32326530612245
+    },
+    "p1en0004":
+    {
+        "caption_id": 3,
+        "code_author_id": 0,
+        "duration": 45.19183673469388
+    },
+    "p1en0005":
+    {
+        "caption_id": 4,
+        "code_author_id": 0,
+        "duration": 93.4138775510204
+    },
+    "p1en0006":
+    {
+        "caption_id": 5,
+        "code_author_id": 0,
+        "duration": 48.87510204081633
+    },
+    "p1en0007":
+    {
+        "caption_id": 6,
+        "code_author_id": 0,
+        "duration": 40.90775510204082
+    },
+    "p1en0008":
+    {
+        "caption_id": 7,
+        "code_author_id": 0,
+        "duration": 81.21469387755101
+    },
+    "p1en0009":
+    {
+        "caption_id": 8,
+        "code_author_id": 0,
+        "duration": 99.70938775510204
+    },
+    "p1en0010":
+    {
+        "caption_id": 9,
+        "code_author_id": 0,
+        "duration": 44.38204081632653
+    },
+    "p1en0011":
+    {
+        "caption_id": 10,
+        "code_author_id": 0,
+        "duration": 141.27020408163264
+    },
+    "p1en0012":
+    {
+        "caption_id": 11,
+        "code_author_id": 0,
+        "duration": 86.56979591836735
+    },
+    "p1en0013":
+    {
+        "caption_id": 12,
+        "code_author_id": 0,
+        "duration": 131.94448979591837
+    },
+    "p1en0014":
+    {
+        "caption_id": 13,
+        "code_author_id": 0,
+        "duration": 61.36163265306122
+    },
+    "p1en0015":
+    {
+        "caption_id": 14,
+        "code_author_id": 0,
+        "duration": 80.43102040816326
+    },
+    "p1en0016":
+    {
+        "caption_id": 15,
+        "code_author_id": 0,
+        "duration": 51.95755102040816
+    },
+    "p1en0017":
+    {
+        "caption_id": 16,
+        "code_author_id": 0,
+        "duration": 131.31755102040816
+    },
+    "p1en0018":
+    {
+        "caption_id": 17,
+        "code_author_id": 0,
+        "duration": 72.59428571428572
+    },
+    "p1en0019":
+    {
+        "caption_id": 18,
+        "code_author_id": 0,
+        "duration": 73.9265306122449
+    },
+    "p1en0020":
+    {
+        "caption_id": 19,
+        "code_author_id": 0,
+        "duration": 63.033469387755105
+    },
+    "p1en0021":
+    {
+        "caption_id": 20,
+        "code_author_id": 0,
+        "duration": 126.4065306122449
+    },
+    "p1en0022":
+    {
+        "caption_id": 21,
+        "code_author_id": 0,
+        "duration": 69.32897959183674
+    },
+    "p1en0023":
+    {
+        "caption_id": 22,
+        "code_author_id": 0,
+        "duration": 44.4865306122449
+    },
+    "p1en0024":
+    {
+        "caption_id": 23,
+        "code_author_id": 0,
+        "duration": 10.344489795918367
+    },
+    "p1es0001":
+    {
+        "caption_id": 24,
+        "code_author_id": 1,
+        "duration": 7.1053061224489795
+    },
+    "p1es0002":
+    {
+        "caption_id": 25,
+        "code_author_id": 1,
+        "duration": 84.00979591836735
+    },
+    "p1es0003":
+    {
+        "caption_id": 26,
+        "code_author_id": 1,
+        "duration": 52.32326530612245
+    },
+    "p1es0004":
+    {
+        "caption_id": 27,
+        "code_author_id": 1,
+        "duration": 45.19183673469388
+    },
+    "p1es0005":
+    {
+        "caption_id": 28,
+        "code_author_id": 1,
+        "duration": 93.4138775510204
+    },
+    "p1es0006":
+    {
+        "caption_id": 29,
+        "code_author_id": 1,
+        "duration": 48.87510204081633
+    },
+    "p1es0007":
+    {
+        "caption_id": 30,
+        "code_author_id": 1,
+        "duration": 40.90775510204082
+    },
+    "p1es0008":
+    {
+        "caption_id": 31,
+        "code_author_id": 1,
+        "duration": 81.21469387755101
+    },
+    "p1es0009":
+    {
+        "caption_id": 32,
+        "code_author_id": 1,
+        "duration": 99.70938775510204
+    },
+    "p1es0010":
+    {
+        "caption_id": 33,
+        "code_author_id": 1,
+        "duration": 44.38204081632653
+    },
+    "p1es0011":
+    {
+        "caption_id": 34,
+        "code_author_id": 1,
+        "duration": 141.27020408163264
+    },
+    "p1es0012":
+    {
+        "caption_id": 35,
+        "code_author_id": 1,
+        "duration": 86.56979591836735
+    },
+    "p1es0013":
+    {
+        "caption_id": 36,
+        "code_author_id": 1,
+        "duration": 131.94448979591837
+    },
+    "p1es0014":
+    {
+        "caption_id": 37,
+        "code_author_id": 1,
+        "duration": 61.36163265306122
+    },
+    "p1es0015":
+    {
+        "caption_id": 38,
+        "code_author_id": 1,
+        "duration": 80.43102040816326
+    },
+    "p1es0016":
+    {
+        "caption_id": 39,
+        "code_author_id": 1,
+        "duration": 51.95755102040816
+    },
+    "p1es0017":
+    {
+        "caption_id": 40,
+        "code_author_id": 1,
+        "duration": 131.31755102040816
+    },
+    "p1es0018":
+    {
+        "caption_id": 41,
+        "code_author_id": 1,
+        "duration": 72.59428571428572
+    },
+    "p1es0019":
+    {
+        "caption_id": 42,
+        "code_author_id": 1,
+        "duration": 73.9265306122449
+    },
+    "p1es0020":
+    {
+        "caption_id": 43,
+        "code_author_id": 1,
+        "duration": 63.033469387755105
+    },
+    "p1es0021":
+    {
+        "caption_id": 44,
+        "code_author_id": 1,
+        "duration": 126.4065306122449
+    },
+    "p1es0022":
+    {
+        "caption_id": 45,
+        "code_author_id": 1,
+        "duration": 69.32897959183674
+    },
+    "p1es0023":
+    {
+        "caption_id": 46,
+        "code_author_id": 1,
+        "duration": 44.4865306122449
+    },
+    "p1es0024":
+    {
+        "caption_id": 47,
+        "code_author_id": 1,
+        "duration": 10.344489795918367
+    },
+    "p1en0025":
+    {
+        "caption_id": 48,
+        "code_author_id": 2,
+        "duration": 5.12
+    },
+    "p1en0026":
+    {
+        "caption_id": 49,
+        "code_author_id": 2,
+        "duration": 77.60979591836735
+    },
+    "p1en0027":
+    {
+        "caption_id": 50,
+        "code_author_id": 2,
+        "duration": 33.9330612244898
+    },
+    "p1en0028":
+    {
+        "caption_id": 51,
+        "code_author_id": 2,
+        "duration": 84.84571428571428
+    },
+    "p1en0029":
+    {
+        "caption_id": 52,
+        "code_author_id": 2,
+        "duration": 73.19510204081632
+    },
+    "p1en0030":
+    {
+        "caption_id": 53,
+        "code_author_id": 2,
+        "duration": 45.270204081632656
+    },
+    "p1en0031":
+    {
+        "caption_id": 54,
+        "code_author_id": 2,
+        "duration": 58.72326530612245
+    },
+    "p1en0032":
+    {
+        "caption_id": 55,
+        "code_author_id": 2,
+        "duration": 73.35183673469388
+    },
+    "p1en0033":
+    {
+        "caption_id": 56,
+        "code_author_id": 2,
+        "duration": 69.17224489795919
+    },
+    "p1en0034":
+    {
+        "caption_id": 57,
+        "code_author_id": 2,
+        "duration": 49.92
+    },
+    "p1en0035":
+    {
+        "caption_id": 58,
+        "code_author_id": 2,
+        "duration": 91.58530612244898
+    },
+    "p1en0036":
+    {
+        "caption_id": 59,
+        "code_author_id": 2,
+        "duration": 63.55591836734694
+    },
+    "p1en0037":
+    {
+        "caption_id": 60,
+        "code_author_id": 2,
+        "duration": 54.33469387755102
+    },
+    "p1en0038":
+    {
+        "caption_id": 61,
+        "code_author_id": 2,
+        "duration": 93.67510204081633
+    },
+    "p1en0039":
+    {
+        "caption_id": 62,
+        "code_author_id": 2,
+        "duration": 74.65795918367347
+    },
+    "p1en0040":
+    {
+        "caption_id": 63,
+        "code_author_id": 2,
+        "duration": 53.34204081632653
+    },
+    "p1en0041":
+    {
+        "caption_id": 64,
+        "code_author_id": 2,
+        "duration": 69.72081632653061
+    },
+    "p1en0042":
+    {
+        "caption_id": 65,
+        "code_author_id": 2,
+        "duration": 109.53142857142858
+    },
+    "p1en0043":
+    {
+        "caption_id": 66,
+        "code_author_id": 2,
+        "duration": 72.82938775510205
+    },
+    "p1en0044":
+    {
+        "caption_id": 67,
+        "code_author_id": 2,
+        "duration": 120.58122448979591
+    },
+    "p1en0045":
+    {
+        "caption_id": 68,
+        "code_author_id": 2,
+        "duration": 121.93959183673469
+    },
+    "p1en0046":
+    {
+        "caption_id": 69,
+        "code_author_id": 2,
+        "duration": 69.06775510204082
+    },
+    "p1en0047":
+    {
+        "caption_id": 70,
+        "code_author_id": 2,
+        "duration": 72.12408163265306
+    },
+    "p1en0048":
+    {
+        "caption_id": 71,
+        "code_author_id": 2,
+        "duration": 82.41632653061224
+    },
+    "p1es0025":
+    {
+        "caption_id": 72,
+        "code_author_id": 3,
+        "duration": 5.12
+    },
+    "p1es0026":
+    {
+        "caption_id": 73,
+        "code_author_id": 3,
+        "duration": 77.60979591836735
+    },
+    "p1es0027":
+    {
+        "caption_id": 74,
+        "code_author_id": 3,
+        "duration": 33.9330612244898
+    },
+    "p1es0028":
+    {
+        "caption_id": 75,
+        "code_author_id": 3,
+        "duration": 84.84571428571428
+    },
+    "p1es0029":
+    {
+        "caption_id": 76,
+        "code_author_id": 3,
+        "duration": 73.19510204081632
+    },
+    "p1es0030":
+    {
+        "caption_id": 77,
+        "code_author_id": 3,
+        "duration": 45.270204081632656
+    },
+    "p1es0031":
+    {
+        "caption_id": 78,
+        "code_author_id": 3,
+        "duration": 58.72326530612245
+    },
+    "p1es0032":
+    {
+        "caption_id": 79,
+        "code_author_id": 3,
+        "duration": 73.35183673469388
+    },
+    "p1es0033":
+    {
+        "caption_id": 80,
+        "code_author_id": 3,
+        "duration": 69.17224489795919
+    },
+    "p1es0034":
+    {
+        "caption_id": 81,
+        "code_author_id": 3,
+        "duration": 49.92
+    },
+    "p1es0035":
+    {
+        "caption_id": 82,
+        "code_author_id": 3,
+        "duration": 91.58530612244898
+    },
+    "p1es0036":
+    {
+        "caption_id": 83,
+        "code_author_id": 3,
+        "duration": 63.55591836734694
+    },
+    "p1es0037":
+    {
+        "caption_id": 84,
+        "code_author_id": 3,
+        "duration": 54.33469387755102
+    },
+    "p1es0038":
+    {
+        "caption_id": 85,
+        "code_author_id": 3,
+        "duration": 93.67510204081633
+    },
+    "p1es0039":
+    {
+        "caption_id": 86,
+        "code_author_id": 3,
+        "duration": 74.65795918367347
+    },
+    "p1es0040":
+    {
+        "caption_id": 87,
+        "code_author_id": 3,
+        "duration": 53.34204081632653
+    },
+    "p1es0041":
+    {
+        "caption_id": 88,
+        "code_author_id": 3,
+        "duration": 69.72081632653061
+    },
+    "p1es0042":
+    {
+        "caption_id": 89,
+        "code_author_id": 3,
+        "duration": 109.53142857142858
+    },
+    "p1es0043":
+    {
+        "caption_id": 90,
+        "code_author_id": 3,
+        "duration": 72.82938775510205
+    },
+    "p1es0044":
+    {
+        "caption_id": 91,
+        "code_author_id": 3,
+        "duration": 120.58122448979591
+    },
+    "p1es0045":
+    {
+        "caption_id": 92,
+        "code_author_id": 3,
+        "duration": 121.93959183673469
+    },
+    "p1es0046":
+    {
+        "caption_id": 93,
+        "code_author_id": 3,
+        "duration": 69.06775510204082
+    },
+    "p1es0047":
+    {
+        "caption_id": 94,
+        "code_author_id": 3,
+        "duration": 72.12408163265306
+    },
+    "p1es0048":
+    {
+        "caption_id": 95,
+        "code_author_id": 3,
+        "duration": 82.41632653061224
+    },
+    "p1en0049":
+    {
+        "caption_id": 96,
+        "code_author_id": 4,
+        "duration": 50.07673469387755
+    },
+    "p1en0050":
+    {
+        "caption_id": 97,
+        "code_author_id": 4,
+        "duration": 38.243265306122446
+    },
+    "p1en0051":
+    {
+        "caption_id": 98,
+        "code_author_id": 4,
+        "duration": 45.7665306122449
+    },
+    "p1en0052":
+    {
+        "caption_id": 99,
+        "code_author_id": 4,
+        "duration": 64.78367346938775
+    },
+    "p1en0053":
+    {
+        "caption_id": 100,
+        "code_author_id": 4,
+        "duration": 70.58285714285714
+    },
+    "p1en0054":
+    {
+        "caption_id": 101,
+        "code_author_id": 4,
+        "duration": 54.25632653061224
+    },
+    "p1en0055":
+    {
+        "caption_id": 102,
+        "code_author_id": 4,
+        "duration": 73.50857142857143
+    },
+    "p1en0056":
+    {
+        "caption_id": 103,
+        "code_author_id": 4,
+        "duration": 69.53795918367346
+    },
+    "p1en0057":
+    {
+        "caption_id": 104,
+        "code_author_id": 4,
+        "duration": 64.6008163265306
+    },
+    "p1en0058":
+    {
+        "caption_id": 105,
+        "code_author_id": 4,
+        "duration": 35.81387755102041
+    },
+    "p1en0059":
+    {
+        "caption_id": 106,
+        "code_author_id": 4,
+        "duration": 51.565714285714286
+    },
+    "p1en0060":
+    {
+        "caption_id": 107,
+        "code_author_id": 4,
+        "duration": 58.46204081632653
+    },
+    "p1en0061":
+    {
+        "caption_id": 108,
+        "code_author_id": 4,
+        "duration": 40.82938775510204
+    },
+    "p1en0062":
+    {
+        "caption_id": 109,
+        "code_author_id": 4,
+        "duration": 55.48408163265306
+    },
+    "p1en0063":
+    {
+        "caption_id": 110,
+        "code_author_id": 4,
+        "duration": 57.88734693877551
+    },
+    "p1en0064":
+    {
+        "caption_id": 111,
+        "code_author_id": 4,
+        "duration": 65.69795918367348
+    },
+    "p1en0065":
+    {
+        "caption_id": 112,
+        "code_author_id": 4,
+        "duration": 70.55673469387754
+    },
+    "p1en0066":
+    {
+        "caption_id": 113,
+        "code_author_id": 4,
+        "duration": 50.36408163265306
+    },
+    "p1en0067":
+    {
+        "caption_id": 114,
+        "code_author_id": 4,
+        "duration": 33.41061224489796
+    },
+    "p1en0068":
+    {
+        "caption_id": 115,
+        "code_author_id": 4,
+        "duration": 67.68326530612245
+    },
+    "p1en0069":
+    {
+        "caption_id": 116,
+        "code_author_id": 4,
+        "duration": 73.22122448979592
+    },
+    "p1en0070":
+    {
+        "caption_id": 117,
+        "code_author_id": 4,
+        "duration": 40.881632653061224
+    },
+    "p1en0071":
+    {
+        "caption_id": 118,
+        "code_author_id": 4,
+        "duration": 62.48489795918368
+    },
+    "p1en0072":
+    {
+        "caption_id": 119,
+        "code_author_id": 4,
+        "duration": 79.93469387755103
+    },
+    "p1es0049":
+    {
+        "caption_id": 120,
+        "code_author_id": 5,
+        "duration": 50.07673469387755
+    },
+    "p1es0050":
+    {
+        "caption_id": 121,
+        "code_author_id": 5,
+        "duration": 38.243265306122446
+    },
+    "p1es0051":
+    {
+        "caption_id": 122,
+        "code_author_id": 5,
+        "duration": 45.7665306122449
+    },
+    "p1es0052":
+    {
+        "caption_id": 123,
+        "code_author_id": 5,
+        "duration": 64.78367346938775
+    },
+    "p1es0053":
+    {
+        "caption_id": 124,
+        "code_author_id": 5,
+        "duration": 70.58285714285714
+    },
+    "p1es0054":
+    {
+        "caption_id": 125,
+        "code_author_id": 5,
+        "duration": 54.25632653061224
+    },
+    "p1es0055":
+    {
+        "caption_id": 126,
+        "code_author_id": 5,
+        "duration": 73.50857142857143
+    },
+    "p1es0056":
+    {
+        "caption_id": 127,
+        "code_author_id": 5,
+        "duration": 69.53795918367346
+    },
+    "p1es0057":
+    {
+        "caption_id": 128,
+        "code_author_id": 5,
+        "duration": 64.6008163265306
+    },
+    "p1es0058":
+    {
+        "caption_id": 129,
+        "code_author_id": 5,
+        "duration": 35.81387755102041
+    },
+    "p1es0059":
+    {
+        "caption_id": 130,
+        "code_author_id": 5,
+        "duration": 51.565714285714286
+    },
+    "p1es0060":
+    {
+        "caption_id": 131,
+        "code_author_id": 5,
+        "duration": 58.46204081632653
+    },
+    "p1es0061":
+    {
+        "caption_id": 132,
+        "code_author_id": 5,
+        "duration": 40.82938775510204
+    },
+    "p1es0062":
+    {
+        "caption_id": 133,
+        "code_author_id": 5,
+        "duration": 55.48408163265306
+    },
+    "p1es0063":
+    {
+        "caption_id": 134,
+        "code_author_id": 5,
+        "duration": 57.88734693877551
+    },
+    "p1es0064":
+    {
+        "caption_id": 135,
+        "code_author_id": 5,
+        "duration": 65.69795918367348
+    },
+    "p1es0065":
+    {
+        "caption_id": 136,
+        "code_author_id": 5,
+        "duration": 70.63510204081632
+    },
+    "p1es0066":
+    {
+        "caption_id": 137,
+        "code_author_id": 5,
+        "duration": 50.36408163265306
+    },
+    "p1es0067":
+    {
+        "caption_id": 138,
+        "code_author_id": 5,
+        "duration": 33.41061224489796
+    },
+    "p1es0068":
+    {
+        "caption_id": 139,
+        "code_author_id": 5,
+        "duration": 67.68326530612245
+    },
+    "p1es0069":
+    {
+        "caption_id": 140,
+        "code_author_id": 5,
+        "duration": 73.22122448979592
+    },
+    "p1es0070":
+    {
+        "caption_id": 141,
+        "code_author_id": 5,
+        "duration": 40.881632653061224
+    },
+    "p1es0071":
+    {
+        "caption_id": 142,
+        "code_author_id": 5,
+        "duration": 62.48489795918368
+    },
+    "p1es0072":
+    {
+        "caption_id": 143,
+        "code_author_id": 5,
+        "duration": 79.93469387755103
+    },
+    "p2en0001":
+    {
+        "caption_id": 144,
+        "code_author_id": 6,
+        "duration": 69.45959183673469
+    },
+    "p2en0002":
+    {
+        "caption_id": 145,
+        "code_author_id": 6,
+        "duration": 234.47510204081632
+    },
+    "p2en0003":
+    {
+        "caption_id": 146,
+        "code_author_id": 6,
+        "duration": 451.7877551020408
+    },
+    "p2en0004":
+    {
+        "caption_id": 147,
+        "code_author_id": 6,
+        "duration": 34.19428571428571
+    },
+    "p2en0005":
+    {
+        "caption_id": 148,
+        "code_author_id": 6,
+        "duration": 36.10122448979592
+    },
+    "p2en0006":
+    {
+        "caption_id": 149,
+        "code_author_id": 6,
+        "duration": 48.92734693877551
+    },
+    "p2en0007":
+    {
+        "caption_id": 150,
+        "code_author_id": 6,
+        "duration": 43.96408163265306
+    },
+    "p2en0008":
+    {
+        "caption_id": 151,
+        "code_author_id": 6,
+        "duration": 60.31673469387755
+    },
+    "p2en0009":
+    {
+        "caption_id": 152,
+        "code_author_id": 6,
+        "duration": 60.29061224489796
+    },
+    "p2en0010":
+    {
+        "caption_id": 153,
+        "code_author_id": 6,
+        "duration": 39.81061224489796
+    },
+    "p2en0011":
+    {
+        "caption_id": 154,
+        "code_author_id": 6,
+        "duration": 23.144489795918368
+    },
+    "p2en0012":
+    {
+        "caption_id": 155,
+        "code_author_id": 6,
+        "duration": 24.816326530612244
+    },
+    "p2en0013":
+    {
+        "caption_id": 156,
+        "code_author_id": 6,
+        "duration": 54.099591836734696
+    },
+    "p2en0014":
+    {
+        "caption_id": 157,
+        "code_author_id": 6,
+        "duration": 50.285714285714285
+    },
+    "p2en0015":
+    {
+        "caption_id": 158,
+        "code_author_id": 6,
+        "duration": 158.85061224489795
+    },
+    "p2en0016":
+    {
+        "caption_id": 159,
+        "code_author_id": 6,
+        "duration": 57.20816326530612
+    },
+    "p2en0017":
+    {
+        "caption_id": 160,
+        "code_author_id": 6,
+        "duration": 28.499591836734695
+    },
+    "p2en0018":
+    {
+        "caption_id": 161,
+        "code_author_id": 6,
+        "duration": 49.44979591836735
+    },
+    "p2en0019":
+    {
+        "caption_id": 162,
+        "code_author_id": 6,
+        "duration": 48.14367346938776
+    },
+    "p2en0020":
+    {
+        "caption_id": 163,
+        "code_author_id": 6,
+        "duration": 25.2865306122449
+    },
+    "p2en0021":
+    {
+        "caption_id": 164,
+        "code_author_id": 6,
+        "duration": 46.10612244897959
+    },
+    "p2en0022":
+    {
+        "caption_id": 165,
+        "code_author_id": 6,
+        "duration": 23.562448979591835
+    },
+    "p2en0023":
+    {
+        "caption_id": 166,
+        "code_author_id": 6,
+        "duration": 24.18938775510204
+    },
+    "p2en0024":
+    {
+        "caption_id": 167,
+        "code_author_id": 6,
+        "duration": 61.57061224489796
+    },
+    "p2es0001":
+    {
+        "caption_id": 168,
+        "code_author_id": 7,
+        "duration": 69.45959183673469
+    },
+    "p2es0002":
+    {
+        "caption_id": 169,
+        "code_author_id": 7,
+        "duration": 234.47510204081632
+    },
+    "p2es0003":
+    {
+        "caption_id": 170,
+        "code_author_id": 7,
+        "duration": 451.7877551020408
+    },
+    "p2es0004":
+    {
+        "caption_id": 171,
+        "code_author_id": 7,
+        "duration": 34.19428571428571
+    },
+    "p2es0005":
+    {
+        "caption_id": 172,
+        "code_author_id": 7,
+        "duration": 36.10122448979592
+    },
+    "p2es0006":
+    {
+        "caption_id": 173,
+        "code_author_id": 7,
+        "duration": 48.92734693877551
+    },
+    "p2es0007":
+    {
+        "caption_id": 174,
+        "code_author_id": 7,
+        "duration": 43.96408163265306
+    },
+    "p2es0008":
+    {
+        "caption_id": 175,
+        "code_author_id": 7,
+        "duration": 60.31673469387755
+    },
+    "p2es0009":
+    {
+        "caption_id": 176,
+        "code_author_id": 7,
+        "duration": 60.29061224489796
+    },
+    "p2es0010":
+    {
+        "caption_id": 177,
+        "code_author_id": 7,
+        "duration": 39.81061224489796
+    },
+    "p2es0011":
+    {
+        "caption_id": 178,
+        "code_author_id": 7,
+        "duration": 23.144489795918368
+    },
+    "p2es0012":
+    {
+        "caption_id": 179,
+        "code_author_id": 7,
+        "duration": 24.816326530612244
+    },
+    "p2es0013":
+    {
+        "caption_id": 180,
+        "code_author_id": 7,
+        "duration": 54.099591836734696
+    },
+    "p2es0014":
+    {
+        "caption_id": 181,
+        "code_author_id": 7,
+        "duration": 50.285714285714285
+    },
+    "p2es0015":
+    {
+        "caption_id": 182,
+        "code_author_id": 7,
+        "duration": 158.85061224489795
+    },
+    "p2es0016":
+    {
+        "caption_id": 183,
+        "code_author_id": 7,
+        "duration": 57.20816326530612
+    },
+    "p2es0017":
+    {
+        "caption_id": 184,
+        "code_author_id": 7,
+        "duration": 28.499591836734695
+    },
+    "p2es0018":
+    {
+        "caption_id": 185,
+        "code_author_id": 7,
+        "duration": 49.44979591836735
+    },
+    "p2es0019":
+    {
+        "caption_id": 186,
+        "code_author_id": 7,
+        "duration": 48.14367346938776
+    },
+    "p2es0020":
+    {
+        "caption_id": 187,
+        "code_author_id": 7,
+        "duration": 25.2865306122449
+    },
+    "p2es0021":
+    {
+        "caption_id": 188,
+        "code_author_id": 7,
+        "duration": 46.10612244897959
+    },
+    "p2es0022":
+    {
+        "caption_id": 189,
+        "code_author_id": 7,
+        "duration": 23.562448979591835
+    },
+    "p2es0023":
+    {
+        "caption_id": 190,
+        "code_author_id": 7,
+        "duration": 24.18938775510204
+    },
+    "p2es0024":
+    {
+        "caption_id": 191,
+        "code_author_id": 7,
+        "duration": 61.57061224489796
+    },
+    "p2en0025":
+    {
+        "caption_id": 192,
+        "code_author_id": 8,
+        "duration": 42.10938775510204
+    },
+    "p2en0026":
+    {
+        "caption_id": 193,
+        "code_author_id": 8,
+        "duration": 159.3208163265306
+    },
+    "p2en0027":
+    {
+        "caption_id": 194,
+        "code_author_id": 8,
+        "duration": 197.7730612244898
+    },
+    "p2en0028":
+    {
+        "caption_id": 195,
+        "code_author_id": 8,
+        "duration": 32.052244897959184
+    },
+    "p2en0029":
+    {
+        "caption_id": 196,
+        "code_author_id": 8,
+        "duration": 77.4791836734694
+    },
+    "p2en0030":
+    {
+        "caption_id": 197,
+        "code_author_id": 8,
+        "duration": 78.78530612244899
+    },
+    "p2en0031":
+    {
+        "caption_id": 198,
+        "code_author_id": 8,
+        "duration": 68.51918367346939
+    },
+    "p2en0032":
+    {
+        "caption_id": 199,
+        "code_author_id": 8,
+        "duration": 102.6873469387755
+    },
+    "p2en0033":
+    {
+        "caption_id": 200,
+        "code_author_id": 8,
+        "duration": 96.6008163265306
+    },
+    "p2en0034":
+    {
+        "caption_id": 201,
+        "code_author_id": 8,
+        "duration": 17.345306122448978
+    },
+    "p2en0035":
+    {
+        "caption_id": 202,
+        "code_author_id": 8,
+        "duration": 102.55673469387754
+    },
+    "p2en0036":
+    {
+        "caption_id": 203,
+        "code_author_id": 8,
+        "duration": 68.98938775510204
+    },
+    "p2en0037":
+    {
+        "caption_id": 204,
+        "code_author_id": 8,
+        "duration": 157.36163265306124
+    },
+    "p2en0038":
+    {
+        "caption_id": 205,
+        "code_author_id": 8,
+        "duration": 16.3265306122449
+    },
+    "p2en0039":
+    {
+        "caption_id": 206,
+        "code_author_id": 8,
+        "duration": 56.42448979591837
+    },
+    "p2en0040":
+    {
+        "caption_id": 207,
+        "code_author_id": 8,
+        "duration": 114.96489795918367
+    },
+    "p2en0041":
+    {
+        "caption_id": 208,
+        "code_author_id": 8,
+        "duration": 48.06530612244898
+    },
+    "p2en0042":
+    {
+        "caption_id": 209,
+        "code_author_id": 8,
+        "duration": 61.59673469387755
+    },
+    "p2en0043":
+    {
+        "caption_id": 210,
+        "code_author_id": 8,
+        "duration": 135.68
+    },
+    "p2en0044":
+    {
+        "caption_id": 211,
+        "code_author_id": 8,
+        "duration": 63.3469387755102
+    },
+    "p2en0045":
+    {
+        "caption_id": 212,
+        "code_author_id": 8,
+        "duration": 31.346938775510203
+    },
+    "p2en0046":
+    {
+        "caption_id": 213,
+        "code_author_id": 8,
+        "duration": 27.611428571428572
+    },
+    "p2en0047":
+    {
+        "caption_id": 214,
+        "code_author_id": 8,
+        "duration": 56.79020408163265
+    },
+    "p2en0048":
+    {
+        "caption_id": 215,
+        "code_author_id": 8,
+        "duration": 60.02938775510204
+    },
+    "p2es0025":
+    {
+        "caption_id": 216,
+        "code_author_id": 9,
+        "duration": 42.10938775510204
+    },
+    "p2es0026":
+    {
+        "caption_id": 217,
+        "code_author_id": 9,
+        "duration": 159.3730612244898
+    },
+    "p2es0027":
+    {
+        "caption_id": 218,
+        "code_author_id": 9,
+        "duration": 197.7730612244898
+    },
+    "p2es0028":
+    {
+        "caption_id": 219,
+        "code_author_id": 9,
+        "duration": 32.052244897959184
+    },
+    "p2es0029":
+    {
+        "caption_id": 220,
+        "code_author_id": 9,
+        "duration": 77.4791836734694
+    },
+    "p2es0030":
+    {
+        "caption_id": 221,
+        "code_author_id": 9,
+        "duration": 78.78530612244899
+    },
+    "p2es0031":
+    {
+        "caption_id": 222,
+        "code_author_id": 9,
+        "duration": 68.51918367346939
+    },
+    "p2es0032":
+    {
+        "caption_id": 223,
+        "code_author_id": 9,
+        "duration": 102.6873469387755
+    },
+    "p2es0033":
+    {
+        "caption_id": 224,
+        "code_author_id": 9,
+        "duration": 96.6008163265306
+    },
+    "p2es0034":
+    {
+        "caption_id": 225,
+        "code_author_id": 9,
+        "duration": 17.345306122448978
+    },
+    "p2es0035":
+    {
+        "caption_id": 226,
+        "code_author_id": 9,
+        "duration": 102.55673469387754
+    },
+    "p2es0036":
+    {
+        "caption_id": 227,
+        "code_author_id": 9,
+        "duration": 68.98938775510204
+    },
+    "p2es0037":
+    {
+        "caption_id": 228,
+        "code_author_id": 9,
+        "duration": 157.36163265306124
+    },
+    "p2es0038":
+    {
+        "caption_id": 229,
+        "code_author_id": 9,
+        "duration": 16.3265306122449
+    },
+    "p2es0039":
+    {
+        "caption_id": 230,
+        "code_author_id": 9,
+        "duration": 56.42448979591837
+    },
+    "p2es0040":
+    {
+        "caption_id": 231,
+        "code_author_id": 9,
+        "duration": 114.96489795918367
+    },
+    "p2es0041":
+    {
+        "caption_id": 232,
+        "code_author_id": 9,
+        "duration": 48.06530612244898
+    },
+    "p2es0042":
+    {
+        "caption_id": 233,
+        "code_author_id": 9,
+        "duration": 61.59673469387755
+    },
+    "p2es0043":
+    {
+        "caption_id": 234,
+        "code_author_id": 9,
+        "duration": 135.68
+    },
+    "p2es0044":
+    {
+        "caption_id": 235,
+        "code_author_id": 9,
+        "duration": 63.3469387755102
+    },
+    "p2es0045":
+    {
+        "caption_id": 236,
+        "code_author_id": 9,
+        "duration": 31.346938775510203
+    },
+    "p2es0046":
+    {
+        "caption_id": 237,
+        "code_author_id": 9,
+        "duration": 27.611428571428572
+    },
+    "p2es0047":
+    {
+        "caption_id": 238,
+        "code_author_id": 9,
+        "duration": 56.79020408163265
+    },
+    "p2es0048":
+    {
+        "caption_id": 239,
+        "code_author_id": 9,
+        "duration": 60.02938775510204
+    },
+    "p2en0049":
+    {
+        "caption_id": 240,
+        "code_author_id": 10,
+        "duration": 145.8677551020408
+    },
+    "p2en0050":
+    {
+        "caption_id": 241,
+        "code_author_id": 10,
+        "duration": 116.87183673469387
+    },
+    "p2en0051":
+    {
+        "caption_id": 242,
+        "code_author_id": 10,
+        "duration": 51.40897959183673
+    },
+    "p2en0052":
+    {
+        "caption_id": 243,
+        "code_author_id": 10,
+        "duration": 36.59755102040816
+    },
+    "p2en0053":
+    {
+        "caption_id": 244,
+        "code_author_id": 10,
+        "duration": 56.29387755102041
+    },
+    "p2en0054":
+    {
+        "caption_id": 245,
+        "code_author_id": 10,
+        "duration": 18.390204081632653
+    },
+    "p2en0055":
+    {
+        "caption_id": 246,
+        "code_author_id": 10,
+        "duration": 14.184489795918367
+    },
+    "p2en0056":
+    {
+        "caption_id": 247,
+        "code_author_id": 10,
+        "duration": 14.471836734693877
+    },
+    "p2en0057":
+    {
+        "caption_id": 248,
+        "code_author_id": 10,
+        "duration": 43.65061224489796
+    },
+    "p2en0058":
+    {
+        "caption_id": 249,
+        "code_author_id": 10,
+        "duration": 23.771428571428572
+    },
+    "p2en0059":
+    {
+        "caption_id": 250,
+        "code_author_id": 10,
+        "duration": 48.43102040816326
+    },
+    "p2en0060":
+    {
+        "caption_id": 251,
+        "code_author_id": 10,
+        "duration": 108.32979591836735
+    },
+    "p2en0061":
+    {
+        "caption_id": 252,
+        "code_author_id": 10,
+        "duration": 42.370612244897956
+    },
+    "p2en0062":
+    {
+        "caption_id": 253,
+        "code_author_id": 10,
+        "duration": 34.42938775510204
+    },
+    "p2en0063":
+    {
+        "caption_id": 254,
+        "code_author_id": 10,
+        "duration": 83.72244897959183
+    },
+    "p2en0064":
+    {
+        "caption_id": 255,
+        "code_author_id": 10,
+        "duration": 88.0065306122449
+    },
+    "p2en0065":
+    {
+        "caption_id": 256,
+        "code_author_id": 10,
+        "duration": 10.631836734693877
+    },
+    "p2en0066":
+    {
+        "caption_id": 257,
+        "code_author_id": 10,
+        "duration": 16.483265306122448
+    },
+    "p2en0067":
+    {
+        "caption_id": 258,
+        "code_author_id": 10,
+        "duration": 42.605714285714285
+    },
+    "p2en0068":
+    {
+        "caption_id": 259,
+        "code_author_id": 10,
+        "duration": 103.65387755102041
+    },
+    "p2en0069":
+    {
+        "caption_id": 260,
+        "code_author_id": 10,
+        "duration": 42.13551020408163
+    },
+    "p2en0070":
+    {
+        "caption_id": 261,
+        "code_author_id": 10,
+        "duration": 62.902857142857144
+    },
+    "p2en0071":
+    {
+        "caption_id": 262,
+        "code_author_id": 10,
+        "duration": 146.28571428571428
+    },
+    "p2en0072":
+    {
+        "caption_id": 263,
+        "code_author_id": 10,
+        "duration": 136.85551020408164
+    },
+    "p2es0049":
+    {
+        "caption_id": 264,
+        "code_author_id": 11,
+        "duration": 145.8677551020408
+    },
+    "p2es0050":
+    {
+        "caption_id": 265,
+        "code_author_id": 11,
+        "duration": 116.87183673469387
+    },
+    "p2es0051":
+    {
+        "caption_id": 266,
+        "code_author_id": 11,
+        "duration": 51.40897959183673
+    },
+    "p2es0052":
+    {
+        "caption_id": 267,
+        "code_author_id": 11,
+        "duration": 36.59755102040816
+    },
+    "p2es0053":
+    {
+        "caption_id": 268,
+        "code_author_id": 11,
+        "duration": 56.29387755102041
+    },
+    "p2es0054":
+    {
+        "caption_id": 269,
+        "code_author_id": 11,
+        "duration": 18.390204081632653
+    },
+    "p2es0055":
+    {
+        "caption_id": 270,
+        "code_author_id": 11,
+        "duration": 14.184489795918367
+    },
+    "p2es0056":
+    {
+        "caption_id": 271,
+        "code_author_id": 11,
+        "duration": 14.471836734693877
+    },
+    "p2es0057":
+    {
+        "caption_id": 272,
+        "code_author_id": 11,
+        "duration": 43.65061224489796
+    },
+    "p2es0058":
+    {
+        "caption_id": 273,
+        "code_author_id": 11,
+        "duration": 23.771428571428572
+    },
+    "p2es0059":
+    {
+        "caption_id": 274,
+        "code_author_id": 11,
+        "duration": 48.43102040816326
+    },
+    "p2es0060":
+    {
+        "caption_id": 275,
+        "code_author_id": 11,
+        "duration": 108.32979591836735
+    },
+    "p2es0061":
+    {
+        "caption_id": 276,
+        "code_author_id": 11,
+        "duration": 42.370612244897956
+    },
+    "p2es0062":
+    {
+        "caption_id": 277,
+        "code_author_id": 11,
+        "duration": 34.42938775510204
+    },
+    "p2es0063":
+    {
+        "caption_id": 278,
+        "code_author_id": 11,
+        "duration": 83.72244897959183
+    },
+    "p2es0064":
+    {
+        "caption_id": 279,
+        "code_author_id": 11,
+        "duration": 88.0065306122449
+    },
+    "p2es0065":
+    {
+        "caption_id": 280,
+        "code_author_id": 11,
+        "duration": 10.631836734693877
+    },
+    "p2es0066":
+    {
+        "caption_id": 281,
+        "code_author_id": 11,
+        "duration": 16.483265306122448
+    },
+    "p2es0067":
+    {
+        "caption_id": 282,
+        "code_author_id": 11,
+        "duration": 42.605714285714285
+    },
+    "p2es0068":
+    {
+        "caption_id": 283,
+        "code_author_id": 11,
+        "duration": 103.65387755102041
+    },
+    "p2es0069":
+    {
+        "caption_id": 284,
+        "code_author_id": 11,
+        "duration": 42.13551020408163
+    },
+    "p2es0070":
+    {
+        "caption_id": 285,
+        "code_author_id": 11,
+        "duration": 62.902857142857144
+    },
+    "p2es0071":
+    {
+        "caption_id": 286,
+        "code_author_id": 11,
+        "duration": 146.28571428571428
+    },
+    "p2es0072":
+    {
+        "caption_id": 287,
+        "code_author_id": 11,
+        "duration": 136.85551020408164
+    },
+    "p3en0001":
+    {
+        "caption_id": 288,
+        "code_author_id": 12,
+        "duration": 140.59102040816327
+    },
+    "p3en0002":
+    {
+        "caption_id": 289,
+        "code_author_id": 12,
+        "duration": 95.21632653061225
+    },
+    "p3en0003":
+    {
+        "caption_id": 290,
+        "code_author_id": 12,
+        "duration": 105.24734693877551
+    },
+    "p3en0004":
+    {
+        "caption_id": 291,
+        "code_author_id": 12,
+        "duration": 49.16244897959184
+    },
+    "p3en0005":
+    {
+        "caption_id": 292,
+        "code_author_id": 12,
+        "duration": 73.66530612244898
+    },
+    "p3en0006":
+    {
+        "caption_id": 293,
+        "code_author_id": 12,
+        "duration": 56.73795918367347
+    },
+    "p3en0007":
+    {
+        "caption_id": 294,
+        "code_author_id": 12,
+        "duration": 74.78857142857143
+    },
+    "p3en0008":
+    {
+        "caption_id": 295,
+        "code_author_id": 12,
+        "duration": 35.604897959183674
+    },
+    "p3en0009":
+    {
+        "caption_id": 296,
+        "code_author_id": 12,
+        "duration": 76.12081632653062
+    },
+    "p3en0010":
+    {
+        "caption_id": 297,
+        "code_author_id": 12,
+        "duration": 58.2530612244898
+    },
+    "p3en0011":
+    {
+        "caption_id": 298,
+        "code_author_id": 12,
+        "duration": 36.70204081632653
+    },
+    "p3en0012":
+    {
+        "caption_id": 299,
+        "code_author_id": 12,
+        "duration": 51.565714285714286
+    },
+    "p3en0013":
+    {
+        "caption_id": 300,
+        "code_author_id": 12,
+        "duration": 39.862857142857145
+    },
+    "p3en0014":
+    {
+        "caption_id": 301,
+        "code_author_id": 12,
+        "duration": 138.71020408163264
+    },
+    "p3en0015":
+    {
+        "caption_id": 302,
+        "code_author_id": 12,
+        "duration": 60.499591836734695
+    },
+    "p3en0016":
+    {
+        "caption_id": 303,
+        "code_author_id": 12,
+        "duration": 63.6865306122449
+    },
+    "p3en0017":
+    {
+        "caption_id": 304,
+        "code_author_id": 12,
+        "duration": 53.65551020408163
+    },
+    "p3en0018":
+    {
+        "caption_id": 305,
+        "code_author_id": 12,
+        "duration": 92.08163265306122
+    },
+    "p3en0019":
+    {
+        "caption_id": 306,
+        "code_author_id": 12,
+        "duration": 68.12734693877552
+    },
+    "p3en0020":
+    {
+        "caption_id": 307,
+        "code_author_id": 12,
+        "duration": 62.17142857142857
+    },
+    "p3en0021":
+    {
+        "caption_id": 308,
+        "code_author_id": 12,
+        "duration": 56.241632653061224
+    },
+    "p3en0022":
+    {
+        "caption_id": 309,
+        "code_author_id": 12,
+        "duration": 35.44816326530612
+    },
+    "p3en0023":
+    {
+        "caption_id": 310,
+        "code_author_id": 12,
+        "duration": 115.30448979591837
+    },
+    "p3en0024":
+    {
+        "caption_id": 311,
+        "code_author_id": 12,
+        "duration": 115.87918367346938
+    },
+    "p3es0001":
+    {
+        "caption_id": 312,
+        "code_author_id": 13,
+        "duration": 140.59102040816327
+    },
+    "p3es0002":
+    {
+        "caption_id": 313,
+        "code_author_id": 13,
+        "duration": 95.21632653061225
+    },
+    "p3es0003":
+    {
+        "caption_id": 314,
+        "code_author_id": 13,
+        "duration": 105.24734693877551
+    },
+    "p3es0004":
+    {
+        "caption_id": 315,
+        "code_author_id": 13,
+        "duration": 49.16244897959184
+    },
+    "p3es0005":
+    {
+        "caption_id": 316,
+        "code_author_id": 13,
+        "duration": 73.66530612244898
+    },
+    "p3es0006":
+    {
+        "caption_id": 317,
+        "code_author_id": 13,
+        "duration": 56.73795918367347
+    },
+    "p3es0007":
+    {
+        "caption_id": 318,
+        "code_author_id": 13,
+        "duration": 74.78857142857143
+    },
+    "p3es0008":
+    {
+        "caption_id": 319,
+        "code_author_id": 13,
+        "duration": 35.604897959183674
+    },
+    "p3es0009":
+    {
+        "caption_id": 320,
+        "code_author_id": 13,
+        "duration": 76.12081632653062
+    },
+    "p3es0010":
+    {
+        "caption_id": 321,
+        "code_author_id": 13,
+        "duration": 58.2530612244898
+    },
+    "p3es0011":
+    {
+        "caption_id": 322,
+        "code_author_id": 13,
+        "duration": 36.70204081632653
+    },
+    "p3es0012":
+    {
+        "caption_id": 323,
+        "code_author_id": 13,
+        "duration": 51.565714285714286
+    },
+    "p3es0013":
+    {
+        "caption_id": 324,
+        "code_author_id": 13,
+        "duration": 39.862857142857145
+    },
+    "p3es0014":
+    {
+        "caption_id": 325,
+        "code_author_id": 13,
+        "duration": 138.71020408163264
+    },
+    "p3es0015":
+    {
+        "caption_id": 326,
+        "code_author_id": 13,
+        "duration": 60.499591836734695
+    },
+    "p3es0016":
+    {
+        "caption_id": 327,
+        "code_author_id": 13,
+        "duration": 63.6865306122449
+    },
+    "p3es0017":
+    {
+        "caption_id": 328,
+        "code_author_id": 13,
+        "duration": 53.65551020408163
+    },
+    "p3es0018":
+    {
+        "caption_id": 329,
+        "code_author_id": 13,
+        "duration": 92.08163265306122
+    },
+    "p3es0019":
+    {
+        "caption_id": 330,
+        "code_author_id": 13,
+        "duration": 68.12734693877552
+    },
+    "p3es0020":
+    {
+        "caption_id": 331,
+        "code_author_id": 13,
+        "duration": 62.17142857142857
+    },
+    "p3es0021":
+    {
+        "caption_id": 332,
+        "code_author_id": 13,
+        "duration": 56.241632653061224
+    },
+    "p3es0022":
+    {
+        "caption_id": 333,
+        "code_author_id": 13,
+        "duration": 35.44816326530612
+    },
+    "p3es0023":
+    {
+        "caption_id": 334,
+        "code_author_id": 13,
+        "duration": 115.30448979591837
+    },
+    "p3es0024":
+    {
+        "caption_id": 335,
+        "code_author_id": 13,
+        "duration": 115.87918367346938
+    },
+    "p3en0025":
+    {
+        "caption_id": 336,
+        "code_author_id": 14,
+        "duration": 275.33061224489796
+    },
+    "p3en0026":
+    {
+        "caption_id": 337,
+        "code_author_id": 14,
+        "duration": 53.81224489795918
+    },
+    "p3en0027":
+    {
+        "caption_id": 338,
+        "code_author_id": 14,
+        "duration": 9.874285714285714
+    },
+    "p3en0028":
+    {
+        "caption_id": 339,
+        "code_author_id": 14,
+        "duration": 19.408979591836733
+    },
+    "p3en0029":
+    {
+        "caption_id": 340,
+        "code_author_id": 14,
+        "duration": 21.812244897959182
+    },
+    "p3en0030":
+    {
+        "caption_id": 341,
+        "code_author_id": 14,
+        "duration": 30.119183673469387
+    },
+    "p3en0031":
+    {
+        "caption_id": 342,
+        "code_author_id": 14,
+        "duration": 71.83673469387755
+    },
+    "p3en0032":
+    {
+        "caption_id": 343,
+        "code_author_id": 14,
+        "duration": 27.611428571428572
+    },
+    "p3en0033":
+    {
+        "caption_id": 344,
+        "code_author_id": 14,
+        "duration": 71.34040816326531
+    },
+    "p3en0034":
+    {
+        "caption_id": 345,
+        "code_author_id": 14,
+        "duration": 75.4938775510204
+    },
+    "p3en0035":
+    {
+        "caption_id": 346,
+        "code_author_id": 14,
+        "duration": 9.142857142857142
+    },
+    "p3en0036":
+    {
+        "caption_id": 347,
+        "code_author_id": 14,
+        "duration": 34.76897959183673
+    },
+    "p3en0037":
+    {
+        "caption_id": 348,
+        "code_author_id": 14,
+        "duration": 50.31183673469388
+    },
+    "p3en0038":
+    {
+        "caption_id": 349,
+        "code_author_id": 14,
+        "duration": 171.75510204081633
+    },
+    "p3en0039":
+    {
+        "caption_id": 350,
+        "code_author_id": 14,
+        "duration": 42.475102040816324
+    },
+    "p3en0040":
+    {
+        "caption_id": 351,
+        "code_author_id": 14,
+        "duration": 69.30285714285715
+    },
+    "p3en0041":
+    {
+        "caption_id": 352,
+        "code_author_id": 14,
+        "duration": 57.9134693877551
+    },
+    "p3en0042":
+    {
+        "caption_id": 353,
+        "code_author_id": 14,
+        "duration": 47.80408163265306
+    },
+    "p3en0043":
+    {
+        "caption_id": 354,
+        "code_author_id": 14,
+        "duration": 35.81387755102041
+    },
+    "p3en0044":
+    {
+        "caption_id": 355,
+        "code_author_id": 14,
+        "duration": 78.88979591836734
+    },
+    "p3en0045":
+    {
+        "caption_id": 356,
+        "code_author_id": 14,
+        "duration": 110.31510204081633
+    },
+    "p3en0046":
+    {
+        "caption_id": 357,
+        "code_author_id": 14,
+        "duration": 56.99918367346939
+    },
+    "p3en0047":
+    {
+        "caption_id": 358,
+        "code_author_id": 14,
+        "duration": 22.125714285714285
+    },
+    "p3en0048":
+    {
+        "caption_id": 359,
+        "code_author_id": 14,
+        "duration": 60.264489795918365
+    },
+    "p3es0025":
+    {
+        "caption_id": 360,
+        "code_author_id": 15,
+        "duration": 275.33061224489796
+    },
+    "p3es0026":
+    {
+        "caption_id": 361,
+        "code_author_id": 15,
+        "duration": 53.81224489795918
+    },
+    "p3es0027":
+    {
+        "caption_id": 362,
+        "code_author_id": 15,
+        "duration": 9.874285714285714
+    },
+    "p3es0028":
+    {
+        "caption_id": 363,
+        "code_author_id": 15,
+        "duration": 19.408979591836733
+    },
+    "p3es0029":
+    {
+        "caption_id": 364,
+        "code_author_id": 15,
+        "duration": 21.812244897959182
+    },
+    "p3es0030":
+    {
+        "caption_id": 365,
+        "code_author_id": 15,
+        "duration": 30.119183673469387
+    },
+    "p3es0031":
+    {
+        "caption_id": 366,
+        "code_author_id": 15,
+        "duration": 71.83673469387755
+    },
+    "p3es0032":
+    {
+        "caption_id": 367,
+        "code_author_id": 15,
+        "duration": 27.611428571428572
+    },
+    "p3es0033":
+    {
+        "caption_id": 368,
+        "code_author_id": 15,
+        "duration": 71.34040816326531
+    },
+    "p3es0034":
+    {
+        "caption_id": 369,
+        "code_author_id": 15,
+        "duration": 75.4938775510204
+    },
+    "p3es0035":
+    {
+        "caption_id": 370,
+        "code_author_id": 15,
+        "duration": 9.142857142857142
+    },
+    "p3es0036":
+    {
+        "caption_id": 371,
+        "code_author_id": 15,
+        "duration": 34.76897959183673
+    },
+    "p3es0037":
+    {
+        "caption_id": 372,
+        "code_author_id": 15,
+        "duration": 50.31183673469388
+    },
+    "p3es0038":
+    {
+        "caption_id": 373,
+        "code_author_id": 15,
+        "duration": 171.75510204081633
+    },
+    "p3es0039":
+    {
+        "caption_id": 374,
+        "code_author_id": 15,
+        "duration": 42.475102040816324
+    },
+    "p3es0040":
+    {
+        "caption_id": 375,
+        "code_author_id": 15,
+        "duration": 69.30285714285715
+    },
+    "p3es0041":
+    {
+        "caption_id": 376,
+        "code_author_id": 15,
+        "duration": 57.9134693877551
+    },
+    "p3es0042":
+    {
+        "caption_id": 377,
+        "code_author_id": 15,
+        "duration": 47.80408163265306
+    },
+    "p3es0043":
+    {
+        "caption_id": 378,
+        "code_author_id": 15,
+        "duration": 35.81387755102041
+    },
+    "p3es0044":
+    {
+        "caption_id": 379,
+        "code_author_id": 15,
+        "duration": 78.88979591836734
+    },
+    "p3es0045":
+    {
+        "caption_id": 380,
+        "code_author_id": 15,
+        "duration": 110.31510204081633
+    },
+    "p3es0046":
+    {
+        "caption_id": 381,
+        "code_author_id": 15,
+        "duration": 56.99918367346939
+    },
+    "p3es0047":
+    {
+        "caption_id": 382,
+        "code_author_id": 15,
+        "duration": 22.125714285714285
+    },
+    "p3es0048":
+    {
+        "caption_id": 383,
+        "code_author_id": 15,
+        "duration": 60.264489795918365
+    },
+    "p3en0049":
+    {
+        "caption_id": 384,
+        "code_author_id": 16,
+        "duration": 29.70122448979592
+    },
+    "p3en0050":
+    {
+        "caption_id": 385,
+        "code_author_id": 16,
+        "duration": 33.776326530612245
+    },
+    "p3en0051":
+    {
+        "caption_id": 386,
+        "code_author_id": 16,
+        "duration": 350.11918367346937
+    },
+    "p3en0052":
+    {
+        "caption_id": 387,
+        "code_author_id": 16,
+        "duration": 98.5861224489796
+    },
+    "p3en0053":
+    {
+        "caption_id": 388,
+        "code_author_id": 16,
+        "duration": 105.84816326530613
+    },
+    "p3en0054":
+    {
+        "caption_id": 389,
+        "code_author_id": 16,
+        "duration": 44.51265306122449
+    },
+    "p3en0055":
+    {
+        "caption_id": 390,
+        "code_author_id": 16,
+        "duration": 179.77469387755102
+    },
+    "p3en0056":
+    {
+        "caption_id": 391,
+        "code_author_id": 16,
+        "duration": 79.56897959183674
+    },
+    "p3en0057":
+    {
+        "caption_id": 392,
+        "code_author_id": 16,
+        "duration": 54.282448979591834
+    },
+    "p3en0058":
+    {
+        "caption_id": 393,
+        "code_author_id": 16,
+        "duration": 79.25551020408163
+    },
+    "p3en0059":
+    {
+        "caption_id": 394,
+        "code_author_id": 16,
+        "duration": 57.9134693877551
+    },
+    "p3en0060":
+    {
+        "caption_id": 395,
+        "code_author_id": 16,
+        "duration": 33.776326530612245
+    },
+    "p3en0061":
+    {
+        "caption_id": 396,
+        "code_author_id": 16,
+        "duration": 73.82204081632653
+    },
+    "p3en0062":
+    {
+        "caption_id": 397,
+        "code_author_id": 16,
+        "duration": 45.74040816326531
+    },
+    "p3en0063":
+    {
+        "caption_id": 398,
+        "code_author_id": 16,
+        "duration": 14.262857142857143
+    },
+    "p3en0064":
+    {
+        "caption_id": 399,
+        "code_author_id": 16,
+        "duration": 28.708571428571428
+    },
+    "p3en0065":
+    {
+        "caption_id": 400,
+        "code_author_id": 16,
+        "duration": 43.78122448979592
+    },
+    "p3en0066":
+    {
+        "caption_id": 401,
+        "code_author_id": 16,
+        "duration": 19.983673469387757
+    },
+    "p3en0067":
+    {
+        "caption_id": 402,
+        "code_author_id": 16,
+        "duration": 48.06530612244898
+    },
+    "p3en0068":
+    {
+        "caption_id": 403,
+        "code_author_id": 16,
+        "duration": 32.44408163265306
+    },
+    "p3en0069":
+    {
+        "caption_id": 404,
+        "code_author_id": 16,
+        "duration": 24.73795918367347
+    },
+    "p3en0070":
+    {
+        "caption_id": 405,
+        "code_author_id": 16,
+        "duration": 40.93387755102041
+    },
+    "p3en0071":
+    {
+        "caption_id": 406,
+        "code_author_id": 16,
+        "duration": 114.10285714285715
+    },
+    "p3en0072":
+    {
+        "caption_id": 407,
+        "code_author_id": 16,
+        "duration": 76.06857142857143
+    },
+    "p3es0049":
+    {
+        "caption_id": 408,
+        "code_author_id": 17,
+        "duration": 29.70122448979592
+    },
+    "p3es0050":
+    {
+        "caption_id": 409,
+        "code_author_id": 17,
+        "duration": 33.776326530612245
+    },
+    "p3es0051":
+    {
+        "caption_id": 410,
+        "code_author_id": 17,
+        "duration": 350.11918367346937
+    },
+    "p3es0052":
+    {
+        "caption_id": 411,
+        "code_author_id": 17,
+        "duration": 98.5861224489796
+    },
+    "p3es0053":
+    {
+        "caption_id": 412,
+        "code_author_id": 17,
+        "duration": 105.84816326530613
+    },
+    "p3es0054":
+    {
+        "caption_id": 413,
+        "code_author_id": 17,
+        "duration": 44.51265306122449
+    },
+    "p3es0055":
+    {
+        "caption_id": 414,
+        "code_author_id": 17,
+        "duration": 179.77469387755102
+    },
+    "p3es0056":
+    {
+        "caption_id": 415,
+        "code_author_id": 17,
+        "duration": 79.56897959183674
+    },
+    "p3es0057":
+    {
+        "caption_id": 416,
+        "code_author_id": 17,
+        "duration": 54.282448979591834
+    },
+    "p3es0058":
+    {
+        "caption_id": 417,
+        "code_author_id": 17,
+        "duration": 79.25551020408163
+    },
+    "p3es0059":
+    {
+        "caption_id": 418,
+        "code_author_id": 17,
+        "duration": 57.9134693877551
+    },
+    "p3es0060":
+    {
+        "caption_id": 419,
+        "code_author_id": 17,
+        "duration": 33.776326530612245
+    },
+    "p3es0061":
+    {
+        "caption_id": 420,
+        "code_author_id": 17,
+        "duration": 73.82204081632653
+    },
+    "p3es0062":
+    {
+        "caption_id": 421,
+        "code_author_id": 17,
+        "duration": 45.74040816326531
+    },
+    "p3es0063":
+    {
+        "caption_id": 422,
+        "code_author_id": 17,
+        "duration": 14.262857142857143
+    },
+    "p3es0064":
+    {
+        "caption_id": 423,
+        "code_author_id": 17,
+        "duration": 28.708571428571428
+    },
+    "p3es0065":
+    {
+        "caption_id": 424,
+        "code_author_id": 17,
+        "duration": 43.78122448979592
+    },
+    "p3es0066":
+    {
+        "caption_id": 425,
+        "code_author_id": 17,
+        "duration": 19.983673469387757
+    },
+    "p3es0067":
+    {
+        "caption_id": 426,
+        "code_author_id": 17,
+        "duration": 48.06530612244898
+    },
+    "p3es0068":
+    {
+        "caption_id": 427,
+        "code_author_id": 17,
+        "duration": 32.44408163265306
+    },
+    "p3es0069":
+    {
+        "caption_id": 428,
+        "code_author_id": 17,
+        "duration": 24.73795918367347
+    },
+    "p3es0070":
+    {
+        "caption_id": 429,
+        "code_author_id": 17,
+        "duration": 40.93387755102041
+    },
+    "p3es0071":
+    {
+        "caption_id": 430,
+        "code_author_id": 17,
+        "duration": 114.10285714285715
+    },
+    "p3es0072":
+    {
+        "caption_id": 431,
+        "code_author_id": 17,
+        "duration": 76.06857142857143
+    }
 }

@@ -52,6 +52,10 @@ function errorCatch(error){
 }
 
 var player = new Tone.Player().toDestination();
+player.loop = false;
+player.onstop(()=> {
+    tick()
+});
 
 // made up parameters
 player.src = ""
@@ -60,6 +64,7 @@ player.seekedTo = 0
 player.currentTime = function(){
     return this.now() + this.seekedTo - this.started;
 };
+
 
 function correctAudioState(current,expected){
     if (!current.src.includes(expected['audio_url'])){
@@ -72,6 +77,7 @@ function correctAudioState(current,expected){
         current.started = current.now();
         current.seekedTo = expected['current_time'];
         current.src = expected['audio_url'];
+        current.duration = expected['duration'];
 
         current.load(expected['audio_url'])
             .then(()=> {
@@ -96,7 +102,7 @@ async function tick() {
 
 function updateProgress() {
     var currentTime = player.currentTime();
-    var duration = 10;
+    var duration = player.duration;
 
     const progressPercent = (currentTime / duration) * 100;
     progress.style.width = `${progressPercent}%`;
@@ -112,7 +118,7 @@ function getCurrentTimeInMinutes(){
 
 function getRemainingTimeInMinutes(){
     var currentTime = player.currentTime();
-    var duration = 10;
+    var duration = player.duration;
 
     let remainingTime = currentTime ? duration-currentTime : 0;
     let min = currentTime ? Math.floor(remainingTime/60): 0;
@@ -124,6 +130,7 @@ function updateTimeInfo(){
     currentTimePos.innerText = getCurrentTimeInMinutes();
     remainingTimePos.innerText = getRemainingTimeInMinutes();
 }
+
 
 const clock = new Tone.Clock(time => {
     tick();

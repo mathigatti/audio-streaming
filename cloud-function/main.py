@@ -36,6 +36,7 @@ def load(projector_id):
     audio_id = projector_id+(str(audio_n).zfill(4))
     caption_id = audios[audio_id]['caption_id']
     code_author_id = audios[audio_id]['code_author_id']
+    duration = audios[audio_id]["duration"]
 
     song_start_time = datetime.strptime(date_string, date_format)
     now = datetime.utcnow()
@@ -47,7 +48,8 @@ def load(projector_id):
             "author": authors[code_author_id], 
             "caption": captions[caption_id],
             "audio_url": f"/audios/{projector_id}/{audio_id}.mp3",
-            "current_time": elapsed_time
+            "current_time": elapsed_time,
+            "duration": duration
 
     }
 
