@@ -16,11 +16,10 @@ with open("audios/captions.json", 'r') as f:
 with open("audios/code_authors.json", 'r') as f:
     authors = json.load(f)
 
-storage_client = storage.Client()
-bucket_name = "pav-audios"
-bucket = storage_client.bucket(bucket_name)
-
 def download(filepath):
+    storage_client = storage.Client()
+    bucket_name = "pav-data"
+    bucket = storage_client.bucket(bucket_name)
     blob = bucket.blob(ntpath.basename(filepath))
     blob.download_to_filename(filepath)
 
@@ -47,7 +46,7 @@ def load(projector_id):
 
             "author": authors[code_author_id], 
             "caption": captions[caption_id],
-            "audio_url": f"https://storage.cloud.google.com/pav-audios/{projector_id}/{audio_id}.mp3",
+            "audio_url": f"/audios/{projector_id}/{audio_id}.mp3",
             "current_time": elapsed_time
 
     }

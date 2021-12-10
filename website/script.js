@@ -52,30 +52,34 @@ function errorCatch(error){
 }
 
 var player = new Tone.Player().toDestination();
+player.autostart = true;
+
+// made up parameters
 player.src = ""
 player.started = 0
 player.seekedTo = 0
 player.currentTime = function(){
-    return this.now() - this.started + this.seekedTo;
+    return this.now() + this.seekedTo - this.started;
 };
 
 function correctAudioState(current,expected){
     if (!current.src.includes(expected['audio_url'])){
-        //audio.currentTime = expected['current_time']
+
         caption.innerText = expected['caption']
         code.innerText = expected['author'][0]
         author.innerText = expected['author'][1]
         title.innerText = expected['author'][2]
+
+        current.started = current.now();
+        current.seekedTo = expected['current_time'];
+        current.src = expected['audio_url'];
+
         current.load(expected['audio_url'])
             .then(()=> {
-                current.started(); 
-                current.seek(expected['current_time']); 
-                current.started = current.now();
-                current.seekedTo = expected['current_time'];
-                current.src = expected['audio_url'];
-            });
+            current.seek(expected['current_time']);
+        });
     }
-    if (Math.abs(current.currentTime() - expected.currentTime) > MAX_DESYNC){
+    else if (Math.abs(current.currentTime() - expected['current_time']) > MAX_DESYNC){
         current.seek(expected['current_time'] + MAX_DESYNC/2);
     }
 }
@@ -91,12 +95,43 @@ async function tick() {
     }
 }
 
-function updateProgress(e) {
-    const { duration, currentTime } = e.srcElement;
+function updateProgress() {
+    var currentTime = player.currentTime();
+    var duration = 10;
+
     const progressPercent = (currentTime / duration) * 100;
     progress.style.width = `${progressPercent}%`;
 }
-//audio.addEventListener('timeupdate', updateProgress);
+
+function getCurrentTimeInMinutes(){
+    var currentTime = player.currentTime();
+
+    let min = currentTime ? Math.floor(currentTime/60) : 0;
+    let sec = currentTime ? Math.floor(currentTime-(min*60)) : 0;
+    return timeFormat(min,sec)
+}
+
+function getRemainingTimeInMinutes(){
+    var currentTime = player.currentTime();
+    var duration = 10;
+
+    let remainingTime = currentTime ? duration-currentTime : 0;
+    let min = currentTime ? Math.floor(remainingTime/60): 0;
+    let sec = currentTime ? Math.floor(remainingTime-(min*60)) : 0;
+    return "-"+timeFormat(min,sec)
+}
+
+function updateTimeInfo(){
+    currentTimePos.innerText = getCurrentTimeInMinutes();
+    remainingTimePos.innerText = getRemainingTimeInMinutes();
+}
+
+const clock = new Tone.Clock(time => {
+    updateProgress();
+    updateTimeInfo();
+}, 3);
+
+clock.start()
 
 function zfill2(n){
     n = Number(n).toString()
@@ -107,37 +142,9 @@ function timeFormat(min,sec){
     return zfill2(min)+":"+zfill2(sec)
 }
 
-function getCurrentTimeInMinutes(e){
-    const {duration,currentTime} = e.srcElement;
-    let min = currentTime ? Math.floor(currentTime/60) : 0;
-    let sec = currentTime ? Math.floor(currentTime-(min*60)) : 0;
-    return timeFormat(min,sec)
-}
-
-function getRemainingTimeInMinutes(e){
-    const {duration,currentTime} = e.srcElement;
-    let remainingTime = currentTime ? duration-currentTime : 0;
-    let min = currentTime ? Math.floor(remainingTime/60): 0;
-    let sec = currentTime ? Math.floor(remainingTime-(min*60)) : 0;
-    return "-"+timeFormat(min,sec)
-}
-
-function updateTimeInfo(e){
-    currentTimePos.innerText = getCurrentTimeInMinutes(e);
-    remainingTimePos.innerText = getRemainingTimeInMinutes(e);
-}
-
-//audio.addEventListener('timeupdate',updateTimeInfo);
-
-// overlay.addEventListener('click', () => {
-//     overlay.style.display = "none";
-//     tick();
-// });
-
 document.addEventListener("DOMContentLoaded", function() {
     lang = params.get("lang");
     lang == 'es' ? setEspanol() : setEnglish();
-    //tick();
 });
 
 var first = true;

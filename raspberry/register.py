@@ -42,7 +42,7 @@ if __name__ == "__main__":
     ser = serial.Serial('/dev/ttyACM0',9600)
 
     storage_client = storage.Client()
-    bucket_name = "pav-audios"
+    bucket_name = "pav-data"
     bucket = storage_client.bucket(bucket_name)
 
     args = sys.argv
