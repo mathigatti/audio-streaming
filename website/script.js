@@ -148,6 +148,19 @@ function timeFormat(min,sec){
     return zfill2(min)+":"+zfill2(sec)
 }
 
+function iOS() {
+    return [
+      'iPad Simulator',
+      'iPhone Simulator',
+      'iPod Simulator',
+      'iPad',
+      'iPhone',
+      'iPod'
+    ].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+}
+
 var first = true;
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -156,12 +169,24 @@ document.addEventListener("DOMContentLoaded", function() {
     //tick();
 });
 
-document.body.addEventListener('click', ()=>{
+if (!iOS()){
+    document.body.addEventListener('click', ()=>{
+            if(first){
+                clock.start()
+                player.autostart = true;
+                first = false
+            }
+        }
+    )
+}
+
+if(iOS()){
+    document.body.addEventListener('touchstart', ()=>{
         if(first){
             clock.start()
-            player.start()
             player.autostart = true;
             first = false
         }
     }
-)
+    )
+}
