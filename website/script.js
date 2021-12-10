@@ -172,9 +172,10 @@ document.addEventListener("DOMContentLoaded", function() {
 if (!iOS()){
     document.body.addEventListener('click', ()=>{
             if(first){
-                clock.start()
+                clock.context.resume();
+                clock.start();
                 player.autostart = true;
-                first = false
+                first = false;
             }
         }
     )
@@ -183,9 +184,10 @@ if (!iOS()){
 if(iOS()){
     document.body.addEventListener('touchstart', ()=>{
         if(first){
-            clock.start()
+            clock.context.resume()
+            clock.start();
             player.autostart = true;
-            first = false
+            first = false;
         }
     }
     )
