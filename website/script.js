@@ -169,7 +169,6 @@ document.addEventListener("DOMContentLoaded", function() {
     //tick();
 });
 
-
 document.body.addEventListener("click", () => {
 	if (first) {
 		Tone.start().then(() => {
