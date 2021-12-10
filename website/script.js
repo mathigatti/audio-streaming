@@ -95,6 +95,10 @@ async function tick() {
         fetch(`https://us-central1-chatbot-gpt2.cloudfunctions.net/pidgeon?projector=${getProjectorIdFrom(proy,lang)}`)
             .then(response => response.json())
             .then(data => correctAudioState(player,data))
+        if (player == "stopped"){
+            player.start();
+        }
+
     }finally {
         setTimeout(tick, MAX_DESYNC*1000)
     }
@@ -160,9 +164,6 @@ document.body.addEventListener('click', ()=>{
             tick()
             clock.start()
             player.autostart = true;
-            if (player == "stopped"){
-                player.start();
-            }
             first = false
         }
     }
