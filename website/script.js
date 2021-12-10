@@ -95,12 +95,8 @@ async function tick() {
         fetch(`https://us-central1-chatbot-gpt2.cloudfunctions.net/pidgeon?projector=${getProjectorIdFrom(proy,lang)}`)
             .then(response => response.json())
             .then(data => correctAudioState(player,data))
-        if (player == "stopped"){
-            player.start();
-        }
-
     }finally {
-        setTimeout(tick, MAX_DESYNC*1000)
+       // setTimeout(tick, MAX_DESYNC*1000)
     }
 }
 
@@ -152,19 +148,33 @@ function timeFormat(min,sec){
     return zfill2(min)+":"+zfill2(sec)
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    lang = params.get("lang");
-    lang == 'es' ? setEspanol() : setEnglish();
-});
+// function iOS() {
+//     return [
+//       'iPad Simulator',
+//       'iPhone Simulator',
+//       'iPod Simulator',
+//       'iPad',
+//       'iPhone',
+//       'iPod'
+//     ].includes(navigator.platform)
+//     // iPad on iOS 13 detection
+//     || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+// }
 
 var first = true;
 
-document.body.addEventListener('click', ()=>{
-        if(first){
-            tick()
-            clock.start()
-            player.autostart = true;
-            first = false
-        }
-    }
-)
+document.addEventListener("DOMContentLoaded", function() {
+    lang = params.get("lang");
+    lang == 'es' ? setEspanol() : setEnglish();
+    //tick();
+});
+
+document.body.addEventListener("click", () => {
+	if (first) {
+		Tone.start().then(() => {
+			clock.start();
+		});
+		player.autostart = true;
+		first = false;
+	}
+});
