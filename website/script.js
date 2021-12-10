@@ -61,7 +61,7 @@ player.currentTime = function(){
 
 function correctAudioState(current,expected){
     if (!current.src.includes(expected['audio_url'])){
-        audio.currentTime = expected['current_time']
+        //audio.currentTime = expected['current_time']
         caption.innerText = expected['caption']
         code.innerText = expected['author'][0]
         author.innerText = expected['author'][1]

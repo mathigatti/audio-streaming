@@ -2,19 +2,32 @@ import sys
 import json
 import serial
 from datetime import datetime
+import ntpath
+
+from google.cloud import storage
 
 date_format = "%d-%b-%Y %H:%M:%S.%f"
 
+def upload_file(filepath,blob_path=None):
+    if blob_path is None:
+        blob_path = ntpath.basename(filepath)
+    blob = bucket.blob(blob_path)
+    blob.upload_from_filename(filepath)
+
 def write_json(projector_id, n):
-    now = datetime.now()
+    now = datetime.utcnow()
     n = n+1 # start counting from 1
     
     out = {"n": n, "time":now.strftime(date_format)}
     print(f"{projector_id} | Play : {n} - {out['time']}") 
-    with open(f"projectors_playing/{projector_id}.json",'w+') as f:
+
+    json_path = f"projectors_playing/{projector_id}.json"
+    with open(json_path,'w+') as f:
         json.dump(out,f)
 
-def run(projector_id, total_audios):
+    upload_file(json_path)
+
+def run(projector_id):
     n = 0
     while True:
         read_serial=ser.readline()
@@ -22,13 +35,16 @@ def run(projector_id, total_audios):
         if signal == 0:
             n = 0
         else:
-            n += 1 % total_audios
+            n += 1
         write_json(projector_id, n)
 
 if __name__ == "__main__":
     ser = serial.Serial('/dev/ttyACM0',9600)
 
-    args = sys.argv # [this_script, projector_id, q_audios]
+    storage_client = storage.Client()
+    bucket_name = "pav-audios"
+    bucket = storage_client.bucket(bucket_name)
+
+    args = sys.argv
     projector_id = args[1]
-    total_audios = int(args[2])
-    run(projector_id,total_audios)
+    run(projector_id)
