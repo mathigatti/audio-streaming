@@ -95,12 +95,8 @@ async function tick() {
         fetch(`https://us-central1-chatbot-gpt2.cloudfunctions.net/pidgeon?projector=${getProjectorIdFrom(proy,lang)}`)
             .then(response => response.json())
             .then(data => correctAudioState(player,data))
-        if (player == "stopped"){
-            player.start();
-        }
-
     }finally {
-        setTimeout(tick, MAX_DESYNC*1000)
+       // setTimeout(tick, MAX_DESYNC*1000)
     }
 }
 
@@ -152,17 +148,18 @@ function timeFormat(min,sec){
     return zfill2(min)+":"+zfill2(sec)
 }
 
+var first = true;
+
 document.addEventListener("DOMContentLoaded", function() {
     lang = params.get("lang");
     lang == 'es' ? setEspanol() : setEnglish();
+    //tick();
 });
-
-var first = true;
 
 document.body.addEventListener('click', ()=>{
         if(first){
-            tick()
             clock.start()
+            player.start()
             player.autostart = true;
             first = false
         }
