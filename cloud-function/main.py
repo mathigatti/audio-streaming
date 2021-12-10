@@ -40,8 +40,7 @@ def load(projector_id):
 
     song_start_time = datetime.strptime(date_string, date_format)
     now = datetime.utcnow()
-    elapsed_time = (now - song_start_time).total_seconds()
-    #elapsed_time = elapsed_time % 10 # Sumo esto para testear. Para que el contador vaya de 0 a 1 todo el tiempo
+    elapsed_time = min(duration, (now - song_start_time).total_seconds())
 
     data = {
 
@@ -49,7 +48,8 @@ def load(projector_id):
             "caption": captions[caption_id],
             "audio_url": f"/audios/{projector_id}/{audio_id}.mp3",
             "current_time": elapsed_time,
-            "duration": duration
+            "duration": duration,
+            "song_start_time": date_string
 
     }
 
