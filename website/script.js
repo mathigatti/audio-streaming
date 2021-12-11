@@ -79,9 +79,11 @@ function correctAudioState(current,expected){
         current.src = expected['audio_url'];
         current.duration = expected['duration'];
 
+        let seekTo = (Date.now() - Date.parse(expected['song_start_time']))/1000
+
         current.load(expected['audio_url'])
             .then(()=> {
-            current.seek(expected['current_time']);
+            current.seek(seekTo);
         });
     }
     else if (Math.abs(current.currentTime() - expected['current_time']) > MAX_DESYNC){
@@ -105,6 +107,7 @@ function updateProgress() {
     var duration = player.duration;
 
     const progressPercent = (currentTime / duration) * 100;
+    progressPercent = (progressPercent <= 100) ? progressPercent : 100;
     progress.style.width = `${progressPercent}%`;
 }
 
@@ -123,7 +126,7 @@ function getRemainingTimeInMinutes(){
     let remainingTime = currentTime ? duration-currentTime : 0;
     let min = currentTime ? Math.floor(remainingTime/60): 0;
     let sec = currentTime ? Math.floor(remainingTime-(min*60)) : 0;
-    return "-"+timeFormat(min,sec)
+    return timeFormat(min,sec)
 }
 
 function updateTimeInfo(){
