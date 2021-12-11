@@ -106,7 +106,7 @@ function updateProgress() {
     var currentTime = player.currentTime();
     var duration = player.duration;
 
-    const progressPercent = (currentTime / duration) * 100;
+    var progressPercent = (currentTime / duration) * 100;
     progressPercent = (progressPercent <= 100) ? progressPercent : 100;
     progress.style.width = `${progressPercent}%`;
 }
