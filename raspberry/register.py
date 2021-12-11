@@ -3,6 +3,7 @@ import json
 import serial
 from datetime import datetime
 import ntpath
+from threading import Timer
 
 from google.cloud import storage
 
@@ -31,20 +32,28 @@ def run(projector_id):
     n = 0
     while True:
         read_serial=ser.readline()
-        signal = int(read_serial)
+        try:
+            signal = int(read_serial)
+        except:
+            signal = -1
         if signal == 0:
             n = 0
-        else:
+        elif signal == 1:
             n += 1
         write_json(projector_id, n)
 
-if __name__ == "__main__":
-    ser = serial.Serial('/dev/ttyACM0',9600)
+def begin():
+        ser.write(b'1')
 
+if __name__ == "__main__":
+    try:
+        ser = serial.Serial('/dev/ttyUSB0',9600)
+    except:
+        ser = serial.Serial('/dev/ttyUSB1',9600)
     storage_client = storage.Client()
     bucket_name = "pav-data"
     bucket = storage_client.bucket(bucket_name)
-
     args = sys.argv
     projector_id = args[1]
+    Timer(4.0,begin).start()
     run(projector_id)
