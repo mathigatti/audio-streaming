@@ -79,10 +79,7 @@ function correctAudioState(current,expected){
         current.src = expected['audio_url'];
         current.duration = expected['duration'];
 
-        let seekTo = (Date.now() - Date.parse(expected['song_start_time']))/1000
-        console.log(Date.parse(expected['song_start_time']))
-        console.log(Date.now())
-        console.log(seekTo)
+        let seekTo = (Date.now() + (3*60*1000) - Date.parse(expected['song_start_time']))/1000
 
         current.load(expected['audio_url'])
             .then(()=> {
