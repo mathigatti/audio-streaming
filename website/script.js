@@ -65,29 +65,33 @@ player.currentTime = function(){
     return this.now() + this.seekedTo - this.started;
 };
 
+function metadataUpdate(current, expected) {
+	caption.innerText = expected["caption"];
+	code.innerText = expected["author"][0];
+	author.innerText = expected["author"][1];
+	title.innerText = expected["author"][2];
+
+	current.started = current.now() + 4;
+	current.seekedTo = expected["current_time"];
+	current.src = expected["audio_url"];
+	current.duration = expected["duration"];
+}
+
 
 function correctAudioState(current,expected){
     if (!current.src.includes(expected['audio_url'])){
-
-        caption.innerText = expected['caption']
-        code.innerText = expected['author'][0]
-        author.innerText = expected['author'][1]
-        title.innerText = expected['author'][2]
-
-        current.started = current.now();
-        current.seekedTo = expected['current_time'];
-        current.src = expected['audio_url'];
-        current.duration = expected['duration'];
-
-        let seekTo = (Date.now() + (3*60*60*1000) - Date.parse(expected['song_start_time']))/1000
+        let seekTo = (Date.now() + (3*60*60*1000) - (Date.parse(expected['song_start_time']) + 4000))/1000
 
         current.load(expected['audio_url'])
             .then(()=> {
-            current.seek(seekTo);
+            let startInMs = ((Date.parse(expected['song_start_time'])) + 4000) - (Date.now() + (3*60*60*1000));
+            let isStarted = startInMs < 0;
+            metadataUpdate(current,expected);
+            if (isStarted){
+                current.start(); current.seek(seekTo)
+            }else
+                setTimeout(()=>{current.start()},startInMs);
         });
-    }
-    else if (Math.abs(current.currentTime() - expected['current_time']) > MAX_DESYNC){
-        current.seek(expected['current_time'] + MAX_DESYNC/2);
     }
 }
 
@@ -108,7 +112,7 @@ function updateProgress() {
 
     var progressPercent = (currentTime / duration) * 100;
     progressPercent = (progressPercent <= 100) ? progressPercent : 100;
-    progress.style.width = `${progressPercent}%`;
+    progress.style.width = `${progressPercent > 100 ? 100 : progressPercent}%`;
 }
 
 function getCurrentTimeInMinutes(){
@@ -126,7 +130,7 @@ function getRemainingTimeInMinutes(){
     let remainingTime = currentTime ? duration-currentTime : 0;
     let min = currentTime ? Math.floor(remainingTime/60): 0;
     let sec = currentTime ? Math.floor(remainingTime-(min*60)) : 0;
-    return timeFormat(min,sec)
+    return "-"+timeFormat(min,sec)
 }
 
 function updateTimeInfo(){
@@ -148,6 +152,8 @@ function zfill2(n){
 }
 
 function timeFormat(min,sec){
+    min = min ? min : 0;
+    sec = sec ? sec : 0;
     return zfill2(min)+":"+zfill2(sec)
 }
 
@@ -177,7 +183,7 @@ document.body.addEventListener("click", () => {
 		Tone.start().then(() => {
 			clock.start();
 		});
-		player.autostart = true;
+		//player.autostart = true;
 		first = false;
 	}
 });
