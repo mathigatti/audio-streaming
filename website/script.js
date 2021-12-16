@@ -71,8 +71,9 @@ function metadataUpdate(current, expected) {
 	author.innerText = expected["author"][1];
 	title.innerText = expected["author"][2];
 
-	current.started = current.now() + 4;
-	current.seekedTo = expected["current_time"];
+	current.started = current.now();
+	current.seekedTo = expected["current_time"] - 4;
+    current.seekedTo = current.seekedTo >= 0 ? current.seekedTo : 0;
 	current.src = expected["audio_url"];
 	current.duration = expected["duration"];
 }
@@ -86,11 +87,10 @@ function correctAudioState(current,expected){
             .then(()=> {
             let startInMs = ((Date.parse(expected['song_start_time'])) + 4000) - (Date.now() + (3*60*60*1000));
             let isStarted = startInMs < 0;
-            metadataUpdate(current,expected);
             if (isStarted){
-                current.start(); current.seek(seekTo)
+                current.start(); current.seek(seekTo); metadataUpdate(current,expected);
             }else
-                setTimeout(()=>{current.start()},startInMs);
+                setTimeout(()=>{current.start(); metadataUpdate(current,expected);},startInMs);
         });
     }
 }
@@ -118,6 +118,7 @@ function updateProgress() {
 function getCurrentTimeInMinutes(){
     var currentTime = player.currentTime();
 
+    currentTime = currentTime >= 0 ? currentTime : 0;
     let min = currentTime ? Math.floor(currentTime/60) : 0;
     let sec = currentTime ? Math.floor(currentTime-(min*60)) : 0;
     return timeFormat(min,sec)
@@ -128,6 +129,7 @@ function getRemainingTimeInMinutes(){
     var duration = player.duration;
 
     let remainingTime = currentTime ? duration-currentTime : 0;
+    remainingTime = (remainingTime>=0) ? remainingTime : 0;
     let min = currentTime ? Math.floor(remainingTime/60): 0;
     let sec = currentTime ? Math.floor(remainingTime-(min*60)) : 0;
     return "-"+timeFormat(min,sec)
@@ -157,33 +159,47 @@ function timeFormat(min,sec){
     return zfill2(min)+":"+zfill2(sec)
 }
 
-// function iOS() {
-//     return [
-//       'iPad Simulator',
-//       'iPhone Simulator',
-//       'iPod Simulator',
-//       'iPad',
-//       'iPhone',
-//       'iPod'
-//     ].includes(navigator.platform)
-//     // iPad on iOS 13 detection
-//     || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
-// }
+function iOS() {
+    return [
+      'iPad Simulator',
+      'iPhone Simulator',
+      'iPod Simulator',
+      'iPad',
+      'iPhone',
+      'iPod'
+    ].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+}
 
 var first = true;
 
 document.addEventListener("DOMContentLoaded", function() {
     lang = params.get("lang");
     lang == 'es' ? setEspanol() : setEnglish();
-    //tick();
+    waitForUserIneraction()
+    if (!iOS()) {
+        Tone.start()
+            .then(() => {clock.start();}).then(()=>{setOverlay(false); first = false;})
+        //player.autostart = true;
+    }
+    getLocation();
 });
 
-document.body.addEventListener("click", () => {
-	if (first) {
-		Tone.start().then(() => {
-			clock.start();
-		});
-		//player.autostart = true;
-		first = false;
-	}
-});
+function waitForUserIneraction(){
+    setOverlay(true)
+	document.body.addEventListener("click", () => {
+		if (first) {
+			Tone.start().then(() => {
+				clock.start();
+			});
+			//player.autostart = true;
+			first = false;
+			setOverlay(false);
+		}
+	});
+}
+
+function setOverlay(on) {
+	document.getElementById("overlay").style.display = on ? "block" : "none";
+}

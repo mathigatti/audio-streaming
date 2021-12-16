@@ -54,7 +54,7 @@ a{
 
 .start-btn{
     font-family: 'Material Icons';
-    border: 2px solid white;
+    border: 2px solid rgba(255,255,255,0.9);
     border-radius: 50%;
     width: 8vh;
     height: 8vh;
@@ -154,7 +154,7 @@ a{
     border-radius: 5px;
     height: 100%;
     width: 0%;
-    transition: width 0.1s linear;
+    transition: width 1s linear;
 }
 
 .time-info{
@@ -195,3 +195,36 @@ a{
     -moz-user-select: none;
     -ms-user-select: none;
 */
+
+/***********/
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.85); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+#overlay-text{
+    position: absolute;
+    text-align: center;
+    font-family: 'Material Icons';
+    top: 50%;
+    left: 50%;
+    font-size: 6vh;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    border: 2px solid rgba(255,255,255,0.9);
+    border-radius: 50%;
+    width: 8vh;
+    height: 8vh;
+    line-height: 8vh;
+  }
