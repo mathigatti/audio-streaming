@@ -1,7 +1,7 @@
 /***geoloc****/
 
 const expoCoords = {latitude: -34.596145760367925, longitude: -58.43074234662542}
-const MAX_DISTANCE = 15
+const MAX_DISTANCE = 9 // kilometers
 
 function getLocation() {
     if (navigator.geolocation) {

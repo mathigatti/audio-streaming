@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function() {
             .then(() => {clock.start();}).then(()=>{setOverlay(false); first = false;})
         //player.autostart = true;
     }
-    //getLocation();
+    getLocation();
 });
 
 function waitForUserIneraction(){
