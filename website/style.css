@@ -5,7 +5,7 @@ html{
     /*height: 90vh;*/
     /*height: -webkit-fill-available;*/
     height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-    height: calc(var(--vh, 1vh) * 90);
+    height: calc(var(--vh, 1vh) * 70);
 }
 
 body{
@@ -27,7 +27,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 92vh;
+    min-height: 82vh;
     margin-top: 4vh;
     margin-left: 4vw;
     margin-right: 4vw;

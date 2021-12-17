@@ -117,8 +117,12 @@ function updateProgress() {
 
 function getCurrentTimeInMinutes(){
     var currentTime = player.currentTime();
+    var duration = player.duration;
 
     currentTime = currentTime >= 0 ? currentTime : 0;
+    if (currentTime > duration) {
+        currentTime = duration;
+    }
     let min = currentTime ? Math.floor(currentTime/60) : 0;
     let sec = currentTime ? Math.floor(currentTime-(min*60)) : 0;
     return timeFormat(min,sec)
@@ -132,7 +136,11 @@ function getRemainingTimeInMinutes(){
     remainingTime = (remainingTime>=0) ? remainingTime : 0;
     let min = currentTime ? Math.floor(remainingTime/60): 0;
     let sec = currentTime ? Math.floor(remainingTime-(min*60)) : 0;
-    return "-"+timeFormat(min,sec)
+    if (remainingTime > 0) {
+        return "-"+timeFormat(min,sec)
+    } else {
+        return timeFormat(min,sec)
+    }
 }
 
 function updateTimeInfo(){
